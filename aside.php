@@ -1,4 +1,4 @@
-<aside class="sidebar">
+    <aside class="sidebar">
         <button type="button" class="sidebar-close-btn"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="02 User"><path d="M25 512a25 25 0 0 1-17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462A24.93 24.93 0 0 1 25 512z" fill="#ffffff" opacity="1" data-original="#ffffff"></path><path d="M487 512a24.93 24.93 0 0 1-17.68-7.32l-462-462A25 25 0 0 1 42.68 7.32l462 462A25 25 0 0 1 487 512z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></g></svg></button>
         <a href="#" class="sidebar__Logo fw-bold text-decoration-none d-flex align-items-center justify-content-center border-bottom py-2 gap-2">
             <span class="logo-txt fs-2">CSS <span class="text-primary">Docs</span></span>
@@ -14,49 +14,49 @@
                     <span class="text">CSS Generators</span>
                 </div>
                 <ul class="sidebar-submenu">
-                    <li><a href="/css-accordion-generator/"><span>Accordion Generator</span></a></li>
-                    <li><a href="/css-animated-text-generator/"><span>Animated Text Generator</span></a></li>
-                    <li><a href="/css-animation-generator/"><span>Animation / Keyframe Generator</span></a></li>
-                    <li><a href="/css-border-image-generator/"><span>Border Image Generator</span></a></li>
-                    <li><a href="/css-corner-generator/"><span>Border Radius Generator</span></a></li>
-                    <li><a href="/css-box-shadow-generator/"><span>Box Shadow Generator</span></a></li>
-                    <li><a href="/css-button-generator/"><span>Button Generator</span></a></li>
-                    <li><a href="/css-checkbox-radio-generator/"><span>Checkbox / Radio Generator</span></a></li>
-                    <li><a href="/css-clip-path-generator/"><span>Clip Path Generator</span></a></li>
-                    <li><a href="/css-color-variable-generator/"><span>Color Variable Generator</span></a></li>
-                    <li><a href="/css-column-generator/"><span>Column Generator</span></a></li>
-                    <li><a href="/css-cubic-bezier-generator/"><span>Cubic Bezier Generator</span></a></li>
-                    <li><a href="/css-dark-mode-generator/"><span>Dark Mode Generator</span></a></li>
-                    <li><a href="/css-flip-switch/"><span>Flip Swith Generator</span></a></li>
-                    <li><a href="/css-flexbox-generator/"><span>Flexbox Generator</span></a></li>
-                    <li><a href="/css-glassmorphism-generator/"><span>Glassmorphism Generator</span></a></li>
-                    <li><a href="/css-glitch-text-effect/"><span>Glitch Text Effect</span></a></li>
-                    <li><a href="/google-fonts-css-generator/"><span>Google Fonts CSS</span></a></li>
-                    <li><a href="/css-gradient-generator/"><span>Gradient Generator</span></a></li>
-                    <li><a href="/css-gradient-border-generator/"><span>Gradient Border Generator</span></a></li>
-                    <li><a href="/css-grid-generator/"><span>Grid Generator</span></a></li>
-                    <li><a href="/css-highlighter-generator/"><span>Highlighter Generator</span></a></li>
-                    <li><a href="/css-image-filter-generator/"><span>Image Filter Generator</span></a></li>
-                    <li><a href="/style-input-range/"><span>Input Range Generator</span></a></li>
-                    <li><a href="/layout-generator/"><span>Layout Generator</span></a></li>
-                    <li><a href="/css-loader-generator/"><span>Loader / Spinner Generator</span></a></li>
-                    <li><a href="/css-menu-generator/"><span>Menu Generator</span></a></li>
-                    <li><a href="/css-nth-child-tester/"><span>nth-child Tester</span></a></li>
-                    <li><a href="/css-pattern-generator/"><span>Pattern Generator</span></a></li>
-                    <li><a href="/css-rgba-generator/"><span>RGBA Generator</span></a></li>
-                    <li><a href="/css-ribbon-generator/"><span>Ribbon Generator</span></a></li>	
-                    <li><a href="/css-rotate-generator/"><span>Rotate Generator</span></a></li>
-                    <li><a href="/css-scrollbar-generator/"><span>Scrollbar Generator</span></a></li>
-                    <li><a href="/css-select-dropdown-generator/"><span>Select Dropdown Generator</span></a></li>
-                    <li><a href="/css-skeleton-loader-generator/"><span>Skeleton Loader Generator</span></a></li>
-                    <li><a href="/css-sprite-generator/"><span>Sprite Generator</span></a></li>
-                    <li><a href="/css-text-gradient-generator/"><span>Text Gradient Generator</span></a></li>
-                    <li><a href="/css-input-generator/"><span>Text Input Generator</span></a></li>
-                    <li><a href="/css-text-shadow-generator/"><span>Text Shadow Generator</span></a></li>
-                    <li><a href="/css-toast-generator/"><span>Toast Generator</span></a></li>
-                    <li><a href="/css-tooltip-generator/"><span>Tooltip Generator</span></a></li>
-                    <li><a href="/css-triangle-generator/"><span>Triangle Generator</span></a></li>
-                    <li><a href="/css-3d-transform-generator/"><span>3D Transform Generator</span></a></li>
+                    <li><a href="#"><span>Accordion Generator</span></a></li>
+                    <li><a href="#"><span>Animated Text Generator</span></a></li>
+                    <li><a href="#"><span>Animation / Keyframe Generator</span></a></li>
+                    <li><a href="#"><span>Border Image Generator</span></a></li>
+                    <li><a href="#"><span>Border Radius Generator</span></a></li>
+                    <li><a href="#"><span>Box Shadow Generator</span></a></li>
+                    <li><a href="#"><span>Button Generator</span></a></li>
+                    <li><a href="#"><span>Checkbox / Radio Generator</span></a></li>
+                    <li><a href="#"><span>Clip Path Generator</span></a></li>
+                    <li><a href="#"><span>Color Variable Generator</span></a></li>
+                    <li><a href="#"><span>Column Generator</span></a></li>
+                    <li><a href="#"><span>Cubic Bezier Generator</span></a></li>
+                    <li><a href="#"><span>Dark Mode Generator</span></a></li>
+                    <li><a href="#"><span>Flip Swith Generator</span></a></li>
+                    <li><a href="#"><span>Flexbox Generator</span></a></li>
+                    <li><a href="#"><span>Glassmorphism Generator</span></a></li>
+                    <li><a href="#"><span>Glitch Text Effect</span></a></li>
+                    <li><a href="#"><span>Google Fonts CSS</span></a></li>
+                    <li><a href="#"><span>Gradient Generator</span></a></li>
+                    <li><a href="#"><span>Gradient Border Generator</span></a></li>
+                    <li><a href="#"><span>Grid Generator</span></a></li>
+                    <li><a href="#"><span>Highlighter Generator</span></a></li>
+                    <li><a href="#"><span>Image Filter Generator</span></a></li>
+                    <li><a href="#"><span>Input Range Generator</span></a></li>
+                    <li><a href="#"><span>Layout Generator</span></a></li>
+                    <li><a href="#"><span>Loader / Spinner Generator</span></a></li>
+                    <li><a href="#"><span>Menu Generator</span></a></li>
+                    <li><a href="#"><span>nth-child Tester</span></a></li>
+                    <li><a href="#"><span>Pattern Generator</span></a></li>
+                    <li><a href="#"><span>RGBA Generator</span></a></li>
+                    <li><a href="#"><span>Ribbon Generator</span></a></li>	
+                    <li><a href="#"><span>Rotate Generator</span></a></li>
+                    <li><a href="#"><span>Scrollbar Generator</span></a></li>
+                    <li><a href="#"><span>Select Dropdown Generator</span></a></li>
+                    <li><a href="#"><span>Skeleton Loader Generator</span></a></li>
+                    <li><a href="#"><span>Sprite Generator</span></a></li>
+                    <li><a href="#"><span>Text Gradient Generator</span></a></li>
+                    <li><a href="#"><span>Text Input Generator</span></a></li>
+                    <li><a href="#"><span>Text Shadow Generator</span></a></li>
+                    <li><a href="#"><span>Toast Generator</span></a></li>
+                    <li><a href="#"><span>Tooltip Generator</span></a></li>
+                    <li><a href="#"><span>Triangle Generator</span></a></li>
+                    <li><a href="#"><span>3D Transform Generator</span></a></li>
                 </ul>
             </li>
             <li class="sidebar-menu__item has-dropdown">
@@ -67,17 +67,17 @@
                     <span class="text">CSS Resources</span>
                 </div>
                 <ul class="sidebar-submenu">
-                    <li><a href="/css-at-rules/"><span>CSS At Rules</span></a></li>
-                    <li><a href="/animate-css/"><span>CSS Animations</span></a></li>
-                    <li><a href="/blog/"><span>CSS Blog</span></a></li>
-                    <li><a href="/css-color-names/"><span>CSS Color Names</span></a></li>
-                    <li><a href="/css-data-types/"><span>CSS Data Types</span></a></li>
-                    <li><a href="/css-functions/"><span>CSS Functions</span></a></li>
-                    <li><a href="/css-properties/"><span>CSS Properties</span></a></li>
-                    <li><a href="/css-pseudo-class/"><span>CSS Pseudo Classes</span></a></li>
-                    <li><a href="/css-quiz/"><span>CSS Quiz</span></a></li>
-                    <li><a href="/css-selectors/"><span>CSS Selectors</span></a></li>
-                    <li><a href="/css-shapes/"><span>CSS Shapes</span></a></li>
+                    <li><a href="#"><span>CSS At Rules</span></a></li>
+                    <li><a href="#"><span>CSS Animations</span></a></li>
+                    <li><a href="#"><span>CSS Blog</span></a></li>
+                    <li><a href="#"><span>CSS Color Names</span></a></li>
+                    <li><a href="#"><span>CSS Data Types</span></a></li>
+                    <li><a href="#"><span>CSS Functions</span></a></li>
+                    <li><a href="#"><span>CSS Properties</span></a></li>
+                    <li><a href="#"><span>CSS Pseudo Classes</span></a></li>
+                    <li><a href="#"><span>CSS Quiz</span></a></li>
+                    <li><a href="#"><span>CSS Selectors</span></a></li>
+                    <li><a href="#"><span>CSS Shapes</span></a></li>
                 </ul>					
             </li>
             <li class="sidebar-menu__item has-dropdown">
@@ -90,30 +90,30 @@
                 <ul class="sidebar-submenu">
                     <li class="has-dropdown"><a href="javascript: void(0);">CSS Compilers</a>
                         <ul class="sub-menu">
-                            <li><a href="/less-to-css/"><span>LESS to CSS Compiler</span></a></li>
-                            <li><a href="/scss-to-css/"><span>SCSS to CSS Compiler</span></a></li>
-                            <li><a href="/stylus-to-css/"><span>Stylus to CSS Compiler</span></a></li>
-                            <li><a href="/css-to-less/"><span>CSS to LESS Converter</span></a></li>
-                            <li><a href="/css-to-scss/"><span>CSS to SCSS Converter</span></a></li>
-                            <li><a href="/css-to-stylus/"><span>CSS to Stylus Converter</span></a></li>
+                            <li><a href="#"><span>LESS to CSS Compiler</span></a></li>
+                            <li><a href="#"><span>SCSS to CSS Compiler</span></a></li>
+                            <li><a href="#"><span>Stylus to CSS Compiler</span></a></li>
+                            <li><a href="#"><span>CSS to LESS Converter</span></a></li>
+                            <li><a href="#"><span>CSS to SCSS Converter</span></a></li>
+                            <li><a href="#"><span>CSS to Stylus Converter</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-counter-style-preview/"><span>CSS @Counter-Style Preview</span></a></li>
-                    <li><a href="/css-centering-guide/"><span>CSS Centering Guide</span></a></li>
-                    <li><a href="/css-clamp-calculator/"><span>CSS Clamp() Calculator</span></a></li>
-                    <li><a href="/css-formatter/"><span>CSS Code Formatter</span></a></li>
-                    <li><a href="/css-optimize/"><span>CSS Code Optimizer</span></a></li>
-                    <li><a href="/css-color-converter/"><span>CSS Color Converter</span></a></li>
-                    <li><a href="/css-color-mix-calculator/"><span>CSS Color-mix() Calculator</span></a></li>
-                    <li><a href="/css-cursor-viewer/"><span>CSS Cursor Viewer</span></a></li>
-                    <li><a href="/css-font-preview/"><span>CSS Font Preview</span></a></li>
-                    <li><a href="/css-lengths/"><span>CSS Lengths Viewer</span></a></li>
-                    <li><a href="/css-logical-properties-converter/"><span>CSS Logical Properties Converter</span></a></li>
-                    <li><a href="/css-position-visualizer/"><span>CSS Position Visualizer</span></a></li>
-                    <li><a href="/css-specificity-calculator/"><span>CSS Specificity Calculator</span></a></li>
-                    <li><a href="/css-validator/"><span>CSS Validator</span></a></li>
-                    <li><a href="/image-to-data/"><span>Convert Image to Data</span></a></li>
-                    <li><a href="/unused-css-finder/"><span>Unused CSS Finder</span></a></li>
+                    <li><a href="#"><span>CSS @Counter-Style Preview</span></a></li>
+                    <li><a href="#"><span>CSS Centering Guide</span></a></li>
+                    <li><a href="#"><span>CSS Clamp() Calculator</span></a></li>
+                    <li><a href="#"><span>CSS Code Formatter</span></a></li>
+                    <li><a href="#"><span>CSS Code Optimizer</span></a></li>
+                    <li><a href="#"><span>CSS Color Converter</span></a></li>
+                    <li><a href="#"><span>CSS Color-mix() Calculator</span></a></li>
+                    <li><a href="#"><span>CSS Cursor Viewer</span></a></li>
+                    <li><a href="#"><span>CSS Font Preview</span></a></li>
+                    <li><a href="#"><span>CSS Lengths Viewer</span></a></li>
+                    <li><a href="#"><span>CSS Logical Properties Converter</span></a></li>
+                    <li><a href="#"><span>CSS Position Visualizer</span></a></li>
+                    <li><a href="#"><span>CSS Specificity Calculator</span></a></li>
+                    <li><a href="#"><span>CSS Validator</span></a></li>
+                    <li><a href="#"><span>Convert Image to Data</span></a></li>
+                    <li><a href="#"><span>Unused CSS Finder</span></a></li>
                 </ul>					
             </li>
             <li class="sidebar-menu__item has-dropdown">
@@ -126,29 +126,29 @@
                 <ul class="sidebar-submenu">
                     <li class="has-dropdown"><a href="javascript: void(0);">HTML Compilers</a>
                         <ul class="sub-menu">
-                            <li><a href="/html-to-pug/"><span>HTML to Pug Converter</span></a></li>
-                            <li><a href="/html-to-markdown/"><span>HTML to Markdown Converter</span></a></li>
-                            <li><a href="/pug-to-html/"><span>Pug to HTML Compiler</span></a></li>
-                            <li><a href="/markdown-to-html/"><span>Markdown to HTML Compiler</span></a></li>
+                            <li><a href="#"><span>HTML to Pug Converter</span></a></li>
+                            <li><a href="#"><span>HTML to Markdown Converter</span></a></li>
+                            <li><a href="#"><span>Pug to HTML Compiler</span></a></li>
+                            <li><a href="#"><span>Markdown to HTML Compiler</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="/html-formatter/"><span>HTML Beautifier / Minifier</span></a></li>
-                    <li><a href="/html-characters/"><span>HTML Character Codes</span></a></li>
-                    <li><a href="/html-colors/"><span>HTML Colors</span></a></li>
-                    <li><a href="/html-entity-encoder-decoder/"><span>HTML Entity Encoder / Decoder</span></a></li>
-                    <li><a href="/html-online-editor/"><span>HTML Online Editor</span></a></li>
-                    <li><a href="/html-table-generator/"><span>HTML Table Generator</span></a></li>
-                    <li><a href="/html-tutorial/"><span>HTML Tutorial</span></a></li>
+                    <li><a href="#"><span>HTML Beautifier / Minifier</span></a></li>
+                    <li><a href="#"><span>HTML Character Codes</span></a></li>
+                    <li><a href="#"><span>HTML Colors</span></a></li>
+                    <li><a href="#"><span>HTML Entity Encoder / Decoder</span></a></li>
+                    <li><a href="#"><span>HTML Online Editor</span></a></li>
+                    <li><a href="#"><span>HTML Table Generator</span></a></li>
+                    <li><a href="#"><span>HTML Tutorial</span></a></li>
                     <li class="has-dropdown"><a href="javascript: void(0);">HTML References</a>
                         <ul class="sub-menu">
-                            <li><a href="/html-attributes/"><span>HTML Attributes</span></a></li>
-                            <li><a href="/html-event-attributes/"><span>HTML Event Attributes</span></a></li>
-                            <li><a href="/html-global-attributes/"><span>HTML Global Attributes</span></a></li>
-                            <li><a href="/html-tags/"><span>HTML Tags</span></a></li>
-                            <li><a href="/http-status-codes/"><span>HTTP Status Codes</span></a></li>
+                            <li><a href="#"><span>HTML Attributes</span></a></li>
+                            <li><a href="#"><span>HTML Event Attributes</span></a></li>
+                            <li><a href="#"><span>HTML Global Attributes</span></a></li>
+                            <li><a href="#"><span>HTML Tags</span></a></li>
+                            <li><a href="#"><span>HTTP Status Codes</span></a></li>
                         </ul>
                     </li>									
-                    <li><a href="/html-validator/"><span>HTML Validator</span></a></li>
+                    <li><a href="#"><span>HTML Validator</span></a></li>
                 </ul>					
             </li>
             <li class="sidebar-menu__item has-dropdown">
@@ -159,15 +159,15 @@
                     <span class="text">Miscellaneous Tools</span>
                 </div>
                 <ul class="sidebar-submenu">
-                    <li><a href="/tools/blend-colors/"><span>Blend Colors</span></a></li>
-                    <li><a href="/tools/darken-color/"><span>Darken Colors</span></a></li>
-                    <li><a href="/tools/lighten-color/"><span>Lighten Colors</span></a></li>
-                    <li><a href="/tools/case-converter/"><span>Case Converter</span></a></li>
-                    <li><a href="/tools/character-word-count/"><span>Character / Word Count</span></a></li>
-                    <li><a href="/tools/cron-expression-generator/"><span>Cron Expression Generator</span></a></li>
-                    <li><a href="/tools/check-gzip-compression/"><span>Check GZIP Compression</span></a></li>
-                    <li><a href="/tools/lorem-ipsum-generator/"><span>Lorem Ipsum Generator</span></a></li>	
-                    <li><a href="/tools/source-code-viewer/"><span>Source Code Viewer</span></a></li>
+                    <li><a href="#"><span>Blend Colors</span></a></li>
+                    <li><a href="#"><span>Darken Colors</span></a></li>
+                    <li><a href="#"><span>Lighten Colors</span></a></li>
+                    <li><a href="#"><span>Case Converter</span></a></li>
+                    <li><a href="#"><span>Character / Word Count</span></a></li>
+                    <li><a href="#"><span>Cron Expression Generator</span></a></li>
+                    <li><a href="#"><span>Check GZIP Compression</span></a></li>
+                    <li><a href="#"><span>Lorem Ipsum Generator</span></a></li>	
+                    <li><a href="#"><span>Source Code Viewer</span></a></li>
                 </ul>					
             </li>
             <li class="sidebar-menu__item">
@@ -182,24 +182,24 @@
                     <span class="text">CSS At-Rules</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-at-rules/charset.php">@charset</a></li>
-                    <li><a href="/css-at-rules/container.php">@container</a></li>
-                    <li><a href="/css-at-rules/counter-style.php">@counter-style</a></li>
-                    <li><a href="/css-at-rules/font-face.php">@font-face</a></li>
-                    <li><a href="/css-at-rules/font-feature-values.php">@font-feature-values</a></li>
-                    <li><a href="/css-at-rules/font-palette-values.php">@font-palette-values</a></li>
-                    <li><a href="/css-at-rules/import.php">@import</a></li>
-                    <li><a href="/css-at-rules/keyframes.php">@keyframes</a></li>
-                    <li><a href="/css-at-rules/layer.php">@layer</a></li>
-                    <li><a href="/css-at-rules/media.php">@media</a></li>
-                    <li><a href="/css-at-rules/namespace.php">@namespace</a></li>
-                    <li><a href="/css-at-rules/page.php">@page</a></li>
-                    <li><a href="/css-at-rules/position-try.php">@position-try</a></li>
-                    <li><a href="/css-at-rules/property.php">@property</a></li>
-                    <li><a href="/css-at-rules/scope.php">@scope</a></li>
-                    <li><a href="/css-at-rules/starting-style.php">@starting-style</a></li>
-                    <li><a href="/css-at-rules/supports.php">@supports</a></li>
-                    <li><a href="/css-at-rules/view-transition.php">@view-transition</a></li>
+                    <li><a href="#"><span>@charset</span></a></li>
+                    <li><a href="#"><span>@container</span></a></li>
+                    <li><a href="#"><span>@counter-style</span></a></li>
+                    <li><a href="#"><span>@font-face</span></a></li>
+                    <li><a href="#"><span>@font-feature-values</span></a></li>
+                    <li><a href="#"><span>@font-palette-values</span></a></li>
+                    <li><a href="#"><span>@import</span></a></li>
+                    <li><a href="#"><span>@keyframes</span></a></li>
+                    <li><a href="#"><span>@layer</span></a></li>
+                    <li><a href="#"><span>@media</span></a></li>
+                    <li><a href="#"><span>@namespace</span></a></li>
+                    <li><a href="#"><span>@page</span></a></li>
+                    <li><a href="#"><span>@position-try</span></a></li>
+                    <li><a href="#"><span>@property</span></a></li>
+                    <li><a href="#"><span>@scope</span></a></li>
+                    <li><a href="#"><span>@starting-style</span></a></li>
+                    <li><a href="#">@supports</a></li>
+                    <li><a href="#">@view-transition</a></li>
                 </ul>
             </li>
 
@@ -211,29 +211,29 @@
                     <span class="text">CSS Data Types</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-data-types/absolute-size.php">&lt;absolute-size&gt;</a></li>
-                    <li><a href="/css-data-types/alpha-value.php">&lt;alpha-value&gt;</a></li>
-                    <li><a href="/css-data-types/angle.php">&lt;angle&gt;</a></li>
-                    <li><a href="/css-data-types/angle-percentage.php">&lt;angle-percentage&gt;</a></li>
-                    <li><a href="/css-data-types/basic-shape.php">&lt;basic-shape&gt;</a></li>
-                    <li><a href="/css-data-types/blend-mode.php">&lt;blend-mode&gt;</a></li>
-                    <li><a href="/css-data-types/color.php">&lt;color&gt;</a></li>
-                    <li><a href="/css-data-types/filter-function.php">&lt;filter-function&gt;</a></li>
-                    <li><a href="/css-data-types/flex.php">&lt;flex&gt;</a></li>
-                    <li><a href="/css-data-types/frequency.php">&lt;frequency&gt;</a></li>
-                    <li><a href="/css-data-types/gradient.php">&lt;gradient&gt;</a></li>
-                    <li><a href="/css-data-types/image.php">&lt;image&gt;</a></li>
-                    <li><a href="/css-data-types/integer.php">&lt;integer&gt;</a></li>
-                    <li><a href="/css-data-types/length.php">&lt;length&gt;</a></li>
-                    <li><a href="/css-data-types/number.php">&lt;number&gt;</a></li>
-                    <li><a href="/css-data-types/percentage.php">&lt;percentage&gt;</a></li>
-                    <li><a href="/css-data-types/position.php">&lt;position&gt;</a></li>
-                    <li><a href="/css-data-types/ratio.php">&lt;ratio&gt;</a></li>
-                    <li><a href="/css-data-types/relative-size.php">&lt;relative-size&gt;</a></li>
-                    <li><a href="/css-data-types/resolution.php">&lt;resolution&gt;</a></li>
-                    <li><a href="/css-data-types/string.php">&lt;string&gt;</a></li>
-                    <li><a href="/css-data-types/time.php">&lt;time&gt;</a></li>
-                    <li><a href="/css-data-types/url.php">&lt;url&gt;</a></li>
+                    <li><a href="#">&lt;absolute-size&gt;</a></li>
+                    <li><a href="#">&lt;alpha-value&gt;</a></li>
+                    <li><a href="#">&lt;angle&gt;</a></li>
+                    <li><a href="#">&lt;angle-percentage&gt;</a></li>
+                    <li><a href="#">&lt;basic-shape&gt;</a></li>
+                    <li><a href="#">&lt;blend-mode&gt;</a></li>
+                    <li><a href="#">&lt;color&gt;</a></li>
+                    <li><a href="#">&lt;filter-function&gt;</a></li>
+                    <li><a href="#">&lt;flex&gt;</a></li>
+                    <li><a href="#">&lt;frequency&gt;</a></li>
+                    <li><a href="#">&lt;gradient&gt;</a></li>
+                    <li><a href="#">&lt;image&gt;</a></li>
+                    <li><a href="#">&lt;integer&gt;</a></li>
+                    <li><a href="#">&lt;length&gt;</a></li>
+                    <li><a href="#">&lt;number&gt;</a></li>
+                    <li><a href="#">&lt;percentage&gt;</a></li>
+                    <li><a href="#">&lt;position&gt;</a></li>
+                    <li><a href="#">&lt;ratio&gt;</a></li>
+                    <li><a href="#">&lt;relative-size&gt;</a></li>
+                    <li><a href="#">&lt;resolution&gt;</a></li>
+                    <li><a href="#">&lt;string&gt;</a></li>
+                    <li><a href="#">&lt;time&gt;</a></li>
+                    <li><a href="#">&lt;url&gt;</a></li>
                 </ul>
             </li>
 
@@ -245,84 +245,84 @@
                     <span class="text">CSS Functions</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-functions/attr.php">attr()</a></li>
-                    <li><a href="/css-functions/calc.php">calc()</a></li>
-                    <li><a href="/css-functions/clamp.php">clamp()</a></li>
-                    <li><a href="/css-functions/counter.php">counter()</a></li>
-                    <li><a href="/css-functions/counters.php">counters()</a></li>
-                    <li><a href="/css-functions/max.php">max()</a></li>
-                    <li><a href="/css-functions/min.php">min()</a></li>
-                    <li><a href="/css-functions/var.php">var()</a></li>
+                    <li><a href="#">&lt;attr&gt;</a></li>
+                    <li><a href="#">&lt;calc&gt;</a></li>
+                    <li><a href="#">&lt;clamp&gt;</a></li>
+                    <li><a href="#">&lt;counter&gt;</a></li>
+                    <li><a href="#">&lt;counters&gt;</a></li>
+                    <li><a href="#">&lt;max&gt;</a></li>
+                    <li><a href="#">&lt;min&gt;</a></li>
+                    <li><a href="#">&lt;var&gt;</a></li>
                     <li class="has-dropdown">
                         <a href="javascript:void(0)" class="has-dropdown">color functions</a>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-functions/color-mix.php">color-mix()</a></li>
-                            <li><a href="/css-functions/hsl.php">hsl()</a></li>
-                            <li><a href="/css-functions/hsla.php">hsla()</a></li>
-                            <li><a href="/css-functions/rgb.php">rgb()</a></li>
-                            <li><a href="/css-functions/rgba.php">rgba()</a></li>
+                            <li><a href="#">&lt;color-mix&gt;</a></li>
+                            <li><a href="#">&lt;hsl&gt;</a></li>
+                            <li><a href="#">&lt;hsla&gt;</a></li>
+                            <li><a href="#">&lt;rgb&gt;</a></li>
+                            <li><a href="#">&lt;rgba&gt;</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <a href="javascript:void(0)" class="has-dropdown">filter functions</a>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-functions/blur.php">blur()</a></li>
-                            <li><a href="/css-functions/brightness.php">brightness()</a></li>
-                            <li><a href="/css-functions/contrast.php">contrast()</a></li>
-                            <li><a href="/css-functions/drop-shadow.php">drop-shadow()</a></li>
-                            <li><a href="/css-functions/grayscale.php">grayscale()</a></li>
-                            <li><a href="/css-functions/hue-rotate.php">hue-rotate()</a></li>
-                            <li><a href="/css-functions/invert.php">invert()</a></li>
-                            <li><a href="/css-functions/opacity.php">opacity()</a></li>
-                            <li><a href="/css-functions/saturate.php">saturate()</a></li>
-                            <li><a href="/css-functions/sepia.php">sepia()</a></li>
+                            <li><a href="#">&lt;blur&gt;</a></li>
+                            <li><a href="#">&lt;brightness&gt;</a></li>
+                            <li><a href="#">&lt;contrast&gt;</a></li>
+                            <li><a href="#">&lt;drop-shadow&gt;</a></li>
+                            <li><a href="#">&lt;grayscale&gt;</a></li>
+                            <li><a href="#">&lt;hue-rotate&gt;</a></li>
+                            <li><a href="#">&lt;invert&gt;</a></li>
+                            <li><a href="#">&lt;opacity&gt;</a></li>
+                            <li><a href="#">&lt;saturate&gt;</a></li>
+                            <li><a href="#">&lt;sepia&gt;</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <a href="javascript:void(0)" class="has-dropdown">gradient functions</a>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-functions/conic-gradient.php">conic-gradient()</a></li>
-                            <li><a href="/css-functions/linear-gradient.php">linear-gradient()</a></li>
-                            <li><a href="/css-functions/radial-gradient.php">radial-gradient()</a></li>
-                            <li><a href="/css-functions/repeating-conic-gradient.php">repeating-conic-gradient()</a></li>
-                            <li><a href="/css-functions/repeating-linear-gradient.php">repeating-linear-gradient()</a></li>
-                            <li><a href="/css-functions/repeating-radial-gradient.php">repeating-radial-gradient()</a></li>
+                            <li><a href="#">&lt;conic-gradient&gt;</a></li>
+                            <li><a href="#">&lt;linear-gradient&gt;</a></li>
+                            <li><a href="#">&lt;radial-gradient&gt;</a></li>
+                            <li><a href="#">&lt;repeating-conic-gradient&gt;</a></li>
+                            <li><a href="#">&lt;repeating-linear-gradient&gt;</a></li>
+                            <li><a href="#">&lt;repeating-radial-gradient&gt;</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">shape functions</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-functions/circle.php">circle()</a></li>
-                            <li><a href="/css-functions/ellipse.php">ellipse()</a></li>
-                            <li><a href="/css-functions/inset.php">inset()</a></li>
-                            <li><a href="/css-functions/path.php">path()</a></li>
-                            <li><a href="/css-functions/polygon.php">polygon()</a></li>
+                            <li><a href="#">&lt;circle&gt;</a></li>
+                            <li><a href="#">&lt;ellipse&gt;</a></li>
+                            <li><a href="#">&lt;inset&gt;</a></li>
+                            <li><a href="#">&lt;path&gt;</a></li>
+                            <li><a href="#">&lt;polygon&gt;</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">transform functions</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-functions/matrix.php">matrix()</a></li>
-                            <li><a href="/css-functions/matrix3d.php">matrix3d()</a></li>
-                            <li><a href="/css-functions/perspective.php">perspective()</a></li>
-                            <li><a href="/css-functions/rotate.php">rotate()</a></li>
-                            <li><a href="/css-functions/rotate3d.php">rotate3d()</a></li>
-                            <li><a href="/css-functions/rotateX.php">rotateX()</a></li>
-                            <li><a href="/css-functions/rotateY.php">rotateY()</a></li>
-                            <li><a href="/css-functions/rotateZ.php">rotateZ()</a></li>
-                            <li><a href="/css-functions/scale.php">scale()</a></li>
-                            <li><a href="/css-functions/scale3d.php">scale3d()</a></li>
-                            <li><a href="/css-functions/scaleX.php">scaleX()</a></li>
-                            <li><a href="/css-functions/scaleY.php">scaleY()</a></li>
-                            <li><a href="/css-functions/scaleZ.php">scaleZ()</a></li>
-                            <li><a href="/css-functions/skew.php">skew()</a></li>
-                            <li><a href="/css-functions/skewX.php">skewX()</a></li>
-                            <li><a href="/css-functions/skewY.php">skewY()</a></li>
-                            <li><a href="/css-functions/translate.php">translate()</a></li>
-                            <li><a href="/css-functions/translate3d.php">translate3d()</a></li>
-                            <li><a href="/css-functions/translateX.php">translateX()</a></li>
-                            <li><a href="/css-functions/translateY.php">translateY()</a></li>
-                            <li><a href="/css-functions/translateZ.php">translateZ()</a></li>
+                            <li><a href="#">&lt;matrix&gt;</a></li>
+                            <li><a href="#">&lt;matrix3d&gt;</a></li>
+                            <li><a href="#">&lt;perspective&gt;</a></li>
+                            <li><a href="#">&lt;rotate&gt;</a></li>
+                            <li><a href="#">&lt;rotate3d&gt;</a></li>
+                            <li><a href="#">&lt;rotateX&gt;</a></li>
+                            <li><a href="#">&lt;rotateY&gt;</a></li>
+                            <li><a href="#">&lt;rotateZ&gt;</a></li>
+                            <li><a href="#">&lt;scale&gt;</a></li>
+                            <li><a href="#">&lt;scale3d&gt;</a></li>
+                            <li><a href="#">&lt;scaleX&gt;</a></li>
+                            <li><a href="#">&lt;scaleY&gt;</a></li>
+                            <li><a href="#">&lt;scaleZ&gt;</a></li>
+                            <li><a href="#">&lt;skew&gt;</a></li>
+                            <li><a href="#">&lt;skewX&gt;</a></li>
+                            <li><a href="#">&lt;skewY&gt;</a></li>
+                            <li><a href="#">&lt;translate&gt;</a></li>
+                            <li><a href="#">&lt;translate3d&gt;</a></li>
+                            <li><a href="#">&lt;translateX&gt;</a></li>
+                            <li><a href="#">&lt;translateY&gt;</a></li>
+                            <li><a href="#">&lt;translateZ&gt;</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -336,699 +336,699 @@
                     <span class="text">CSS Properties</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-properties/accent-color.php">accent-color</a></li>
+                    <li><a href="#">accent-color</a></li>
                     <li class="has-dropdown">
                         <a href="javascript:void(0)" class="has-dropdown">align-*</a>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/align-content.php">align-content</a></li>
-                            <li><a href="/css-properties/align-items.php">align-items</a></li>
-                            <li><a href="/css-properties/align-self.php">align-self</a></li>
+                            <li><a href="#">align-content</a></li>
+                            <li><a href="#">align-items</a></li>
+                            <li><a href="#">align-self</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/alignment-baseline.php">alignment-baseline</a></li>
-                    <li><a href="/css-properties/all.php">all</a></li>
-                    <li><a href="/css-properties/anchor-name.php">anchor-name</a></li>
+                    <li><a href="#">alignment-baseline</a></li>
+                    <li><a href="#">all</a></li>
+                    <li><a href="#">anchor-name</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">animation-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/animation.php">animation</a></li>
-                            <li><a href="/css-properties/animation-composition.php">animation-composition</a></li>
-                            <li><a href="/css-properties/animation-delay.php">animation-delay</a></li>
-                            <li><a href="/css-properties/animation-direction.php">animation-direction</a></li>
-                            <li><a href="/css-properties/animation-duration.php">animation-duration</a></li>
-                            <li><a href="/css-properties/animation-fill-mode.php">animation-fill-mode</a></li>
-                            <li><a href="/css-properties/animation-iteration-count.php">animation-iteration-count</a></li>
-                            <li><a href="/css-properties/animation-name.php">animation-name</a></li>
-                            <li><a href="/css-properties/animation-play-state.php">animation-play-state</a></li>
-                            <li><a href="/css-properties/animation-timeline.php">animation-timeline</a></li>
-                            <li><a href="/css-properties/animation-timing-function.php">animation-timing-function</a></li>
+                            <li><a href="#">animation</a></li>
+                            <li><a href="#">animation-composition</a></li>
+                            <li><a href="#">animation-delay</a></li>
+                            <li><a href="#">animation-direction</a></li>
+                            <li><a href="#">animation-duration</a></li>
+                            <li><a href="#">animation-fill-mode</a></li>
+                            <li><a href="#">animation-iteration-count</a></li>
+                            <li><a href="#">animation-name</a></li>
+                            <li><a href="#">animation-play-state</a></li>
+                            <li><a href="#">animation-timeline</a></li>
+                            <li><a href="#">animation-timing-function</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/appearance.php">appearance</a></li>
-                    <li><a href="/css-properties/aspect-ratio.php">aspect-ratio</a></li>
-                    <li><a href="/css-properties/backdrop-filter.php">backdrop-filter</a></li>
-                    <li><a href="/css-properties/backface-visibility.php">backface-visibility</a></li>
+                    <li><a href="#">appearance</a></li>
+                    <li><a href="#">aspect-ratio</a></li>
+                    <li><a href="#">backdrop-filter</a></li>
+                    <li><a href="#">backface-visibility</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">background-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/background.php">background</a></li>
-                            <li><a href="/css-properties/background-attachment.php">background-attachment</a></li>
-                            <li><a href="/css-properties/background-blend-mode.php">background-blend-mode</a></li>
-                            <li><a href="/css-properties/background-clip.php">background-clip</a></li>
-                            <li><a href="/css-properties/background-color.php">background-color</a></li>
-                            <li><a href="/css-properties/background-image.php">background-image</a></li>
-                            <li><a href="/css-properties/background-origin.php">background-origin</a></li>
-                            <li><a href="/css-properties/background-position.php">background-position</a></li>
-                            <li><a href="/css-properties/background-position-x.php">background-position-x</a></li>
-                            <li><a href="/css-properties/background-position-y.php">background-position-y</a></li>
-                            <li><a href="/css-properties/background-repeat.php">background-repeat</a></li>
-                            <li><a href="/css-properties/background-size.php">background-size</a></li>
+                            <li><a href="#">background</a></li>
+                            <li><a href="#">background-attachment</a></li>
+                            <li><a href="#">background-blend-mode</a></li>
+                            <li><a href="#">background-clip</a></li>
+                            <li><a href="#">background-color</a></li>
+                            <li><a href="#">background-image</a></li>
+                            <li><a href="#">background-origin</a></li>
+                            <li><a href="#">background-position</a></li>
+                            <li><a href="#">background-position-x</a></li>
+                            <li><a href="#">background-position-y</a></li>
+                            <li><a href="#">background-repeat</a></li>
+                            <li><a href="#">background-size</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/block-size.php">block-size</a></li>
+                    <li><a href="#">block-size</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">border-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/border.php">border</a></li>
-                            <li><a href="/css-properties/border-block.php">border-block</a></li>
-                            <li><a href="/css-properties/border-block-color.php">border-block-color</a></li>
-                            <li><a href="/css-properties/border-block-end.php">border-block-end</a></li>
-                            <li><a href="/css-properties/border-block-end-color.php">border-block-end-color</a></li>
-                            <li><a href="/css-properties/border-block-end-style.php">border-block-end-style</a></li>
-                            <li><a href="/css-properties/border-block-end-width.php">border-block-end-width</a></li>
-                            <li><a href="/css-properties/border-block-start.php">border-block-start</a></li>
-                            <li><a href="/css-properties/border-block-start-color.php">border-block-start-color</a></li>
-                            <li><a href="/css-properties/border-block-start-style.php">border-block-start-style</a></li>
-                            <li><a href="/css-properties/border-block-start-width.php">border-block-start-width</a></li>
-                            <li><a href="/css-properties/border-block-style.php">border-block-style</a></li>
-                            <li><a href="/css-properties/border-block-width.php">border-block-width</a></li>
-                            <li><a href="/css-properties/border-bottom.php">border-bottom</a></li>
-                            <li><a href="/css-properties/border-bottom-color.php">border-bottom-color</a></li>
-                            <li><a href="/css-properties/border-bottom-left-radius.php">border-bottom-left-radius</a></li>
-                            <li><a href="/css-properties/border-bottom-right-radius.php">border-bottom-right-radius</a></li>
-                            <li><a href="/css-properties/border-bottom-style.php">border-bottom-style</a></li>
-                            <li><a href="/css-properties/border-bottom-width.php">border-bottom-width</a></li>
-                            <li><a href="/css-properties/border-collapse.php">border-collapse</a></li>
-                            <li><a href="/css-properties/border-color.php">border-color</a></li>
-                            <li><a href="/css-properties/border-end-end-radius.php">border-end-end-radius</a></li>
-                            <li><a href="/css-properties/border-end-start-radius.php">border-end-start-radius</a></li>
-                            <li><a href="/css-properties/border-image.php">border-image</a></li>
-                            <li><a href="/css-properties/border-image-outset.php">border-image-outset</a></li>
-                            <li><a href="/css-properties/border-image-repeat.php">border-image-repeat</a></li>
-                            <li><a href="/css-properties/border-image-slice.php">border-image-slice</a></li>
-                            <li><a href="/css-properties/border-image-source.php">border-image-source</a></li>
-                            <li><a href="/css-properties/border-image-width.php">border-image-width</a></li>
-                            <li><a href="/css-properties/border-inline.php">border-inline</a></li>
-                            <li><a href="/css-properties/border-inline-color.php">border-inline-color</a></li>
-                            <li><a href="/css-properties/border-inline-end.php">border-inline-end</a></li>
-                            <li><a href="/css-properties/border-inline-end-color.php">border-inline-end-color</a></li>
-                            <li><a href="/css-properties/border-inline-end-style.php">border-inline-end-style</a></li>
-                            <li><a href="/css-properties/border-inline-end-width.php">border-inline-end-width</a></li>
-                            <li><a href="/css-properties/border-inline-start.php">border-inline-start</a></li>
-                            <li><a href="/css-properties/border-inline-start-color.php">border-inline-start-color</a></li>
-                            <li><a href="/css-properties/border-inline-start-style.php">border-inline-start-style</a></li>
-                            <li><a href="/css-properties/border-inline-start-width.php">border-inline-start-width</a></li>
-                            <li><a href="/css-properties/border-inline-style.php">border-inline-style</a></li>
-                            <li><a href="/css-properties/border-inline-width.php">border-inline-width</a></li>
-                            <li><a href="/css-properties/border-left.php">border-left</a></li>
-                            <li><a href="/css-properties/border-left-color.php">border-left-color</a></li>
-                            <li><a href="/css-properties/border-left-style.php">border-left-style</a></li>
-                            <li><a href="/css-properties/border-left-width.php">border-left-width</a></li>
-                            <li><a href="/css-properties/border-radius.php">border-radius</a></li>
-                            <li><a href="/css-properties/border-right.php">border-right</a></li>
-                            <li><a href="/css-properties/border-right-color.php">border-right-color</a></li>
-                            <li><a href="/css-properties/border-right-style.php">border-right-style</a></li>
-                            <li><a href="/css-properties/border-right-width.php">border-right-width</a></li>
-                            <li><a href="/css-properties/border-spacing.php">border-spacing</a></li>
-                            <li><a href="/css-properties/border-start-end-radius.php">border-start-end-radius</a></li>
-                            <li><a href="/css-properties/border-start-start-radius.php">border-start-start-radius</a></li>
-                            <li><a href="/css-properties/border-style.php">border-style</a></li>
-                            <li><a href="/css-properties/border-top.php">border-top</a></li>
-                            <li><a href="/css-properties/border-top-color.php">border-top-color</a></li>
-                            <li><a href="/css-properties/border-top-left-radius.php">border-top-left-radius</a></li>
-                            <li><a href="/css-properties/border-top-right-radius.php">border-top-right-radius</a></li>
-                            <li><a href="/css-properties/border-top-style.php">border-top-style</a></li>
-                            <li><a href="/css-properties/border-top-width.php">border-top-width</a></li>
-                            <li><a href="/css-properties/border-width.php">border-width</a></li>
+                            <li><a href="#">border</a></li>
+                            <li><a href="#">border-block</a></li>
+                            <li><a href="#">border-block-color</a></li>
+                            <li><a href="#">border-block-end</a></li>
+                            <li><a href="#">border-block-end-color</a></li>
+                            <li><a href="#">border-block-end-style</a></li>
+                            <li><a href="#">border-block-end-width</a></li>
+                            <li><a href="#">border-block-start</a></li>
+                            <li><a href="#">border-block-start-color</a></li>
+                            <li><a href="#">border-block-start-style</a></li>
+                            <li><a href="#">border-block-start-width</a></li>
+                            <li><a href="#">border-block-style</a></li>
+                            <li><a href="#">border-block-width</a></li>
+                            <li><a href="#">border-bottom</a></li>
+                            <li><a href="#">border-bottom-color</a></li>
+                            <li><a href="#">border-bottom-left-radius</a></li>
+                            <li><a href="#">border-bottom-right-radius</a></li>
+                            <li><a href="#">border-bottom-style</a></li>
+                            <li><a href="#">border-bottom-width</a></li>
+                            <li><a href="#">border-collapse</a></li>
+                            <li><a href="#">border-color</a></li>
+                            <li><a href="#">border-end-end-radius</a></li>
+                            <li><a href="#">border-end-start-radius</a></li>
+                            <li><a href="#">border-image</a></li>
+                            <li><a href="#">border-image-outset</a></li>
+                            <li><a href="#">border-image-repeat</a></li>
+                            <li><a href="#">border-image-slice</a></li>
+                            <li><a href="#">border-image-source</a></li>
+                            <li><a href="#">border-image-width</a></li>
+                            <li><a href="#">border-inline</a></li>
+                            <li><a href="#">border-inline-color</a></li>
+                            <li><a href="#">border-inline-end</a></li>
+                            <li><a href="#">border-inline-end-color</a></li>
+                            <li><a href="#">border-inline-end-style</a></li>
+                            <li><a href="#">border-inline-end-width</a></li>
+                            <li><a href="#">border-inline-start</a></li>
+                            <li><a href="#">border-inline-start-color</a></li>
+                            <li><a href="#">border-inline-start-style</a></li>
+                            <li><a href="#">border-inline-start-width</a></li>
+                            <li><a href="#">border-inline-style</a></li>
+                            <li><a href="#">border-inline-width</a></li>
+                            <li><a href="#">border-left</a></li>
+                            <li><a href="#">border-left-color</a></li>
+                            <li><a href="#">border-left-style</a></li>
+                            <li><a href="#">border-left-width</a></li>
+                            <li><a href="#">border-radius</a></li>
+                            <li><a href="#">border-right</a></li>
+                            <li><a href="#">border-right-color</a></li>
+                            <li><a href="#">border-right-style</a></li>
+                            <li><a href="#">border-right-width</a></li>
+                            <li><a href="#">border-spacing</a></li>
+                            <li><a href="#">border-start-end-radius</a></li>
+                            <li><a href="#">border-start-start-radius</a></li>
+                            <li><a href="#">border-style</a></li>
+                            <li><a href="#">border-top</a></li>
+                            <li><a href="#">border-top-color</a></li>
+                            <li><a href="#">border-top-left-radius</a></li>
+                            <li><a href="#">border-top-right-radius</a></li>
+                            <li><a href="#">border-top-style</a></li>
+                            <li><a href="#">border-top-width</a></li>
+                            <li><a href="#">border-width</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/bottom.php">bottom</a></li>
+                    <li><a href="#">bottom</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">box-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/box-decoration-break.php">box-decoration-break</a></li>
-                            <li><a href="/css-properties/box-shadow.php">box-shadow</a></li>
-                            <li><a href="/css-properties/box-sizing.php">box-sizing</a></li>
+                            <li><a href="#">box-decoration-break</a></li>
+                            <li><a href="#">box-shadow</a></li>
+                            <li><a href="#">box-sizing</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">break-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/break-after.php">break-after</a></li>
-                            <li><a href="/css-properties/break-before.php">break-before</a></li>
-                            <li><a href="/css-properties/break-inside.php">break-inside</a></li>
+                            <li><a href="#">break-after</a></li>
+                            <li><a href="#">break-before</a></li>
+                            <li><a href="#">break-inside</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/caption-side.php">caption-side</a></li>
-                    <li><a href="/css-properties/caret-color.php">caret-color</a></li>
-                    <li><a href="/css-properties/clear.php">clear</a></li>
+                    <li><a href="#">caption-side</a></li>
+                    <li><a href="#">caret-color</a></li>
+                    <li><a href="#">clear</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">clip-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/clip-path.php">clip-path</a></li>
-                            <li><a href="/css-properties/clip-rule.php">clip-rule</a></li>
+                            <li><a href="#">clip-path</a></li>
+                            <li><a href="#">clip-rule</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">color-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/color.php">color</a></li>
-                            <li><a href="/css-properties/color-scheme.php">color-scheme</a></li>
+                            <li><a href="#">color</a></li>
+                            <li><a href="#">color-scheme</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">column-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/column-count.php">column-count</a></li>
-                            <li><a href="/css-properties/column-fill.php">column-fill</a></li>
-                            <li><a href="/css-properties/column-gap.php">column-gap</a></li>
-                            <li><a href="/css-properties/column-rule.php">column-rule</a></li>
-                            <li><a href="/css-properties/column-rule-color.php">column-rule-color</a></li>
-                            <li><a href="/css-properties/column-rule-style.php">column-rule-style</a></li>
-                            <li><a href="/css-properties/column-rule-width.php">column-rule-width</a></li>
-                            <li><a href="/css-properties/column-span.php">column-span</a></li>
-                            <li><a href="/css-properties/column-width.php">column-width</a></li>
+                            <li><a href="#">column-count</a></li>
+                            <li><a href="#">column-fill</a></li>
+                            <li><a href="#">column-gap</a></li>
+                            <li><a href="#">column-rule</a></li>
+                            <li><a href="#">column-rule-color</a></li>
+                            <li><a href="#">column-rule-style</a></li>
+                            <li><a href="#">column-rule-width</a></li>
+                            <li><a href="#">column-span</a></li>
+                            <li><a href="#">column-width</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/columns.php">columns</a></li>
+                    <li><a href="#">columns</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">contain-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/contain.php">contain</a></li>
-                            <li><a href="/css-properties/contain-intrinsic-block-size.php">contain-intrinsic-block-size</a></li>
-                            <li><a href="/css-properties/contain-intrinsic-height.php">contain-intrinsic-height</a></li>
-                            <li><a href="/css-properties/contain-intrinsic-inline-size.php">contain-intrinsic-inline-size</a></li>
-                            <li><a href="/css-properties/contain-intrinsic-size.php">contain-intrinsic-size</a></li>
-                            <li><a href="/css-properties/contain-intrinsic-width.php">contain-intrinsic-width</a></li>
+                            <li><a href="#">contain</a></li>
+                            <li><a href="#">contain-intrinsic-block-size</a></li>
+                            <li><a href="#">contain-intrinsic-height</a></li>
+                            <li><a href="#">contain-intrinsic-inline-size</a></li>
+                            <li><a href="#">contain-intrinsic-size</a></li>
+                            <li><a href="#">contain-intrinsic-width</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">container-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/container.php">container</a></li>
-                            <li><a href="/css-properties/container-name.php">container-name</a></li>
-                            <li><a href="/css-properties/container-type.php">container-type</a></li>
+                            <li><a href="#">container</a></li>
+                            <li><a href="#">container-name</a></li>
+                            <li><a href="#">container-type</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/content.php">content</a></li>
+                    <li><a href="#">content</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">corner-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/corner-block-end-shape.php">corner-block-end-shape</a></li>
-                            <li><a href="/css-properties/corner-block-start-shape.php">corner-block-start-shape</a></li>
-                            <li><a href="/css-properties/corner-bottom-left-shape.php">corner-bottom-left-shape</a></li>
-                            <li><a href="/css-properties/corner-bottom-right-shape.php">corner-bottom-right-shape</a></li>
-                            <li><a href="/css-properties/corner-bottom-shape.php">corner-bottom-shape</a></li>
-                            <li><a href="/css-properties/corner-end-end-shape.php">corner-end-end-shape</a></li>
-                            <li><a href="/css-properties/corner-end-start-shape.php">corner-end-start-shape</a></li>
-                            <li><a href="/css-properties/corner-inline-end-shape.php">corner-inline-end-shape</a></li>
-                            <li><a href="/css-properties/corner-inline-start-shape.php">corner-inline-start-shape</a></li>
-                            <li><a href="/css-properties/corner-left-shape.php">corner-left-shape</a></li>
-                            <li><a href="/css-properties/corner-right-shape.php">corner-right-shape</a></li>
-                            <li><a href="/css-properties/corner-shape.php">corner-shape</a></li>
-                            <li><a href="/css-properties/corner-start-end-shape.php">corner-start-end-shape</a></li>
-                            <li><a href="/css-properties/corner-start-start-shape.php">corner-start-start-shape</a></li>
-                            <li><a href="/css-properties/corner-top-left-shape.php">corner-top-left-shape</a></li>
-                            <li><a href="/css-properties/corner-top-right-shape.php">corner-top-right-shape</a></li>
-                            <li><a href="/css-properties/corner-top-shape.php">corner-top-shape</a></li>
+                            <li><a href="#">corner-block-end-shape</a></li>
+                            <li><a href="#">corner-block-start-shape</a></li>
+                            <li><a href="#">corner-bottom-left-shape</a></li>
+                            <li><a href="#">corner-bottom-right-shape</a></li>
+                            <li><a href="#">corner-bottom-shape</a></li>
+                            <li><a href="#">corner-end-end-shape</a></li>
+                            <li><a href="#">corner-end-start-shape</a></li>
+                            <li><a href="#">corner-inline-end-shape</a></li>
+                            <li><a href="#">corner-inline-start-shape</a></li>
+                            <li><a href="#">corner-left-shape</a></li>
+                            <li><a href="#">corner-right-shape</a></li>
+                            <li><a href="#">corner-shape</a></li>
+                            <li><a href="#">corner-start-end-shape</a></li>
+                            <li><a href="#">corner-start-start-shape</a></li>
+                            <li><a href="#">corner-top-left-shape</a></li>
+                            <li><a href="#">corner-top-right-shape</a></li>
+                            <li><a href="#">corner-top-shape</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">counter-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/counter-increment.php">counter-increment</a></li>
-                            <li><a href="/css-properties/counter-reset.php">counter-reset</a></li>
-                            <li><a href="/css-properties/counter-set.php">counter-set</a></li>
+                            <li><a href="#">counter-increment</a></li>
+                            <li><a href="#">counter-reset</a></li>
+                            <li><a href="#">counter-set</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/cursor.php">cursor</a></li>
-                    <li><a href="/css-properties/direction.php">direction</a></li>
-                    <li><a href="/css-properties/display.php">display</a></li>
-                    <li><a href="/css-properties/empty-cells.php">empty-cells</a></li>
+                    <li><a href="#">cursor</a></li>
+                    <li><a href="#">direction</a></li>
+                    <li><a href="#">display</a></li>
+                    <li><a href="#">empty-cells</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">fill-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/fill.php">fill</a></li>
-                            <li><a href="/css-properties/fill-opacity.php">fill-opacity</a></li>
-                            <li><a href="/css-properties/fill-rule.php">fill-rule</a></li>
+                            <li><a href="#">fill</a></li>
+                            <li><a href="#">fill-opacity</a></li>
+                            <li><a href="#">fill-rule</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/filter.php">filter</a></li>
+                    <li><a href="#">filter</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">flex-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/flex.php">flex</a></li>
-                            <li><a href="/css-properties/flex-basis.php">flex-basis</a></li>
-                            <li><a href="/css-properties/flex-direction.php">flex-direction</a></li>
-                            <li><a href="/css-properties/flex-flow.php">flex-flow</a></li>
-                            <li><a href="/css-properties/flex-grow.php">flex-grow</a></li>
-                            <li><a href="/css-properties/flex-shrink.php">flex-shrink</a></li>
-                            <li><a href="/css-properties/flex-wrap.php">flex-wrap</a></li>
+                            <li><a href="#">flex</a></li>
+                            <li><a href="#">flex-basis</a></li>
+                            <li><a href="#">flex-direction</a></li>
+                            <li><a href="#">flex-flow</a></li>
+                            <li><a href="#">flex-grow</a></li>
+                            <li><a href="#">flex-shrink</a></li>
+                            <li><a href="#">flex-wrap</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/float.php">float</a></li>
+                    <li><a href="#">float</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">flood-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/flood-color.php">flood-color</a></li>
-                            <li><a href="/css-properties/flood-opacity.php">flood-opacity</a></li>
+                            <li><a href="#">flood-color</a></li>
+                            <li><a href="#">flood-opacity</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">font-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/font.php">font</a></li>
-                            <li><a href="/css-properties/font-family.php">font-family</a></li>
-                            <li><a href="/css-properties/font-feature-settings.php">font-feature-settings</a></li>
-                            <li><a href="/css-properties/font-kerning.php">font-kerning</a></li>
-                            <li><a href="/css-properties/font-language-override.php">font-language-override</a></li>
-                            <li><a href="/css-properties/font-optical-sizing.php">font-optical-sizing</a></li>
-                            <li><a href="/css-properties/font-palette.php">font-palette</a></li>
-                            <li><a href="/css-properties/font-size.php">font-size</a></li>
-                            <li><a href="/css-properties/font-size-adjust.php">font-size-adjust</a></li>
-                            <li><a href="/css-properties/font-stretch.php">font-stretch</a></li>
-                            <li><a href="/css-properties/font-style.php">font-style</a></li>
-                            <li><a href="/css-properties/font-synthesis.php">font-synthesis</a></li>
-                            <li><a href="/css-properties/font-synthesis-small-caps.php">font-synthesis-small-caps</a></li>
-                            <li><a href="/css-properties/font-synthesis-style.php">font-synthesis-style</a></li>
-                            <li><a href="/css-properties/font-synthesis-weight.php">font-synthesis-weight</a></li>
-                            <li><a href="/css-properties/font-variant.php">font-variant</a></li>
-                            <li><a href="/css-properties/font-variant-alternates.php">font-variant-alternates</a></li>
-                            <li><a href="/css-properties/font-variant-caps.php">font-variant-caps</a></li>
-                            <li><a href="/css-properties/font-variant-east-asian.php">font-variant-east-asian</a></li>
-                            <li><a href="/css-properties/font-variant-emoji.php">font-variant-emoji</a></li>
-                            <li><a href="/css-properties/font-variant-ligatures.php">font-variant-ligatures</a></li>
-                            <li><a href="/css-properties/font-variant-numeric.php">font-variant-numeric</a></li>
-                            <li><a href="/css-properties/font-variant-position.php">font-variant-position</a></li>
-                            <li><a href="/css-properties/font-variation-settings.php">font-variation-settings</a></li>
-                            <li><a href="/css-properties/font-weight.php">font-weight</a></li>
+                            <li><a href="#">font</a></li>
+                            <li><a href="#">font-family</a></li>
+                            <li><a href="#">font-feature-settings</a></li>
+                            <li><a href="#">font-kerning</a></li>
+                            <li><a href="#">font-language-override</a></li>
+                            <li><a href="#">font-optical-sizing</a></li>
+                            <li><a href="#">font-palette</a></li>
+                            <li><a href="#">font-size</a></li>
+                            <li><a href="#">font-size-adjust</a></li>
+                            <li><a href="#">font-stretch</a></li>
+                            <li><a href="#">font-style</a></li>
+                            <li><a href="#">font-synthesis</a></li>
+                            <li><a href="#">font-synthesis-small-caps</a></li>
+                            <li><a href="#">font-synthesis-style</a></li>
+                            <li><a href="#">font-synthesis-weight</a></li>
+                            <li><a href="#">font-variant</a></li>
+                            <li><a href="#">font-variant-alternates</a></li>
+                            <li><a href="#">font-variant-caps</a></li>
+                            <li><a href="#">font-variant-east-asian</a></li>
+                            <li><a href="#">font-variant-emoji</a></li>
+                            <li><a href="#">font-variant-ligatures</a></li>
+                            <li><a href="#">font-variant-numeric</a></li>
+                            <li><a href="#">font-variant-position</a></li>
+                            <li><a href="#">font-variation-settings</a></li>
+                            <li><a href="#">font-weight</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/forced-color-adjust.php">forced-color-adjust</a></li>
-                    <li><a href="/css-properties/gap.php">gap</a></li>
+                    <li><a href="#">forced-color-adjust</a></li>
+                    <li><a href="#">gap</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">grid-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/grid.php">grid</a></li>
-                            <li><a href="/css-properties/grid-area.php">grid-area</a></li>
-                            <li><a href="/css-properties/grid-auto-columns.php">grid-auto-columns</a></li>
-                            <li><a href="/css-properties/grid-auto-flow.php">grid-auto-flow</a></li>
-                            <li><a href="/css-properties/grid-auto-rows.php">grid-auto-rows</a></li>
-                            <li><a href="/css-properties/grid-column.php">grid-column</a></li>
-                            <li><a href="/css-properties/grid-column-end.php">grid-column-end</a></li>
-                            <li><a href="/css-properties/grid-column-start.php">grid-column-start</a></li>
-                            <li><a href="/css-properties/grid-row.php">grid-row</a></li>
-                            <li><a href="/css-properties/grid-row-end.php">grid-row-end</a></li>
-                            <li><a href="/css-properties/grid-row-start.php">grid-row-start</a></li>
-                            <li><a href="/css-properties/grid-template.php">grid-template</a></li>
-                            <li><a href="/css-properties/grid-template-areas.php">grid-template-areas</a></li>
-                            <li><a href="/css-properties/grid-template-columns.php">grid-template-columns</a></li>
-                            <li><a href="/css-properties/grid-template-rows.php">grid-template-rows</a></li>
+                            <li><a href="#">grid</a></li>
+                            <li><a href="#">grid-area</a></li>
+                            <li><a href="#">grid-auto-columns</a></li>
+                            <li><a href="#">grid-auto-flow</a></li>
+                            <li><a href="#">grid-auto-rows</a></li>
+                            <li><a href="#">grid-column</a></li>
+                            <li><a href="#">grid-column-end</a></li>
+                            <li><a href="#">grid-column-start</a></li>
+                            <li><a href="#">grid-row</a></li>
+                            <li><a href="#">grid-row-end</a></li>
+                            <li><a href="#">grid-row-start</a></li>
+                            <li><a href="#">grid-template</a></li>
+                            <li><a href="#">grid-template-areas</a></li>
+                            <li><a href="#">grid-template-columns</a></li>
+                            <li><a href="#">grid-template-rows</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/hanging-punctuation.php">hanging-punctuation</a></li>
-                    <li><a href="/css-properties/height.php">height</a></li>
+                    <li><a href="#">hanging-punctuation</a></li>
+                    <li><a href="#">height</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">hyphenate-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/hyphenate-character.php">hyphenate-character</a></li>
-                            <li><a href="/css-properties/hyphenate-limit-chars.php">hyphenate-limit-chars</a></li>
+                            <li><a href="#">hyphenate-character</a></li>
+                            <li><a href="#">hyphenate-limit-chars</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/hyphens.php">hyphens</a></li>
+                    <li><a href="#">hyphens</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">image-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/image-orientation.php">image-orientation</a></li>
-                            <li><a href="/css-properties/image-rendering.php">image-rendering</a></li>
+                            <li><a href="#">image-orientation</a></li>
+                            <li><a href="#">image-rendering</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/inline-size.php">inline-size</a></li>
+                    <li><a href="#">inline-size</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">inset-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/inset.php">inset</a></li>
-                            <li><a href="/css-properties/inset-block.php">inset-block</a></li>
-                            <li><a href="/css-properties/inset-block-end.php">inset-block-end</a></li>
-                            <li><a href="/css-properties/inset-block-start.php">inset-block-start</a></li>
-                            <li><a href="/css-properties/inset-inline.php">inset-inline</a></li>
-                            <li><a href="/css-properties/inset-inline-end.php">inset-inline-end</a></li>
-                            <li><a href="/css-properties/inset-inline-start.php">inset-inline-start</a></li>
+                            <li><a href="#">inset</a></li>
+                            <li><a href="#">inset-block</a></li>
+                            <li><a href="#">inset-block-end</a></li>
+                            <li><a href="#">inset-block-start</a></li>
+                            <li><a href="#">inset-inline</a></li>
+                            <li><a href="#">inset-inline-end</a></li>
+                            <li><a href="#">inset-inline-start</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/isolation.php">isolation</a></li>
+                    <li><a href="#">isolation</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">justify-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/justify-content.php">justify-content</a></li>
-                            <li><a href="/css-properties/justify-items.php">justify-items</a></li>
-                            <li><a href="/css-properties/justify-self.php">justify-self</a></li>
+                            <li><a href="#">justify-content</a></li>
+                            <li><a href="#">justify-items</a></li>
+                            <li><a href="#">justify-self</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/left.php">left</a></li>
-                    <li><a href="/css-properties/letter-spacing.php">letter-spacing</a></li>
-                    <li><a href="/css-properties/lighting-color.php">lighting-color</a></li>
+                    <li><a href="#">left</a></li>
+                    <li><a href="#">letter-spacing</a></li>
+                    <li><a href="#">lighting-color</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">line-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/line-break.php">line-break</a></li>
-                            <li><a href="/css-properties/line-height.php">line-height</a></li>
+                            <li><a href="#">line-break</a></li>
+                            <li><a href="#">line-height</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">list-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/list-style.php">list-style</a></li>
-                            <li><a href="/css-properties/list-style-image.php">list-style-image</a></li>
-                            <li><a href="/css-properties/list-style-position.php">list-style-position</a></li>
-                            <li><a href="/css-properties/list-style-type.php">list-style-type</a></li>
+                            <li><a href="#">list-style</a></li>
+                            <li><a href="#">list-style-image</a></li>
+                            <li><a href="#">list-style-position</a></li>
+                            <li><a href="#">list-style-type</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">margin-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/margin.php">margin</a></li>
-                            <li><a href="/css-properties/margin-block.php">margin-block</a></li>
-                            <li><a href="/css-properties/margin-block-end.php">margin-block-end</a></li>
-                            <li><a href="/css-properties/margin-block-start.php">margin-block-start</a></li>
-                            <li><a href="/css-properties/margin-bottom.php">margin-bottom</a></li>
-                            <li><a href="/css-properties/margin-inline.php">margin-inline</a></li>
-                            <li><a href="/css-properties/margin-inline-end.php">margin-inline-end</a></li>
-                            <li><a href="/css-properties/margin-inline-start.php">margin-inline-start</a></li>
-                            <li><a href="/css-properties/margin-left.php">margin-left</a></li>
-                            <li><a href="/css-properties/margin-right.php">margin-right</a></li>
-                            <li><a href="/css-properties/margin-top.php">margin-top</a></li>
+                            <li><a href="#">margin</a></li>
+                            <li><a href="#">margin-block</a></li>
+                            <li><a href="#">margin-block-end</a></li>
+                            <li><a href="#">margin-block-start</a></li>
+                            <li><a href="#">margin-bottom</a></li>
+                            <li><a href="#">margin-inline</a></li>
+                            <li><a href="#">margin-inline-end</a></li>
+                            <li><a href="#">margin-inline-start</a></li>
+                            <li><a href="#">margin-left</a></li>
+                            <li><a href="#">margin-right</a></li>
+                            <li><a href="#">margin-top</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">marker-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/marker.php">marker</a></li>
-                            <li><a href="/css-properties/marker-end.php">marker-end</a></li>
-                            <li><a href="/css-properties/marker-mid.php">marker-mid</a></li>
-                            <li><a href="/css-properties/marker-start.php">marker-start</a></li>
+                            <li><a href="#">marker</a></li>
+                            <li><a href="#">marker-end</a></li>
+                            <li><a href="#">marker-mid</a></li>
+                            <li><a href="#">marker-start</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">mask-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/mask.php">mask</a></li>
-                            <li><a href="/css-properties/mask-border.php">mask-border</a></li>
-                            <li><a href="/css-properties/mask-border-mode.php">mask-border-mode</a></li>
-                            <li><a href="/css-properties/mask-border-outset.php">mask-border-outset</a></li>
-                            <li><a href="/css-properties/mask-border-repeat.php">mask-border-repeat</a></li>
-                            <li><a href="/css-properties/mask-border-slice.php">mask-border-slice</a></li>
-                            <li><a href="/css-properties/mask-border-source.php">mask-border-source</a></li>
-                            <li><a href="/css-properties/mask-border-width.php">mask-border-width</a></li>
-                            <li><a href="/css-properties/mask-clip.php">mask-clip</a></li>
-                            <li><a href="/css-properties/mask-composite.php">mask-composite</a></li>
-                            <li><a href="/css-properties/mask-image.php">mask-image</a></li>
-                            <li><a href="/css-properties/mask-mode.php">mask-mode</a></li>
-                            <li><a href="/css-properties/mask-origin.php">mask-origin</a></li>
-                            <li><a href="/css-properties/mask-position.php">mask-position</a></li>
-                            <li><a href="/css-properties/mask-repeat.php">mask-repeat</a></li>
-                            <li><a href="/css-properties/mask-size.php">mask-size</a></li>
-                            <li><a href="/css-properties/mask-type.php">mask-type</a></li>
+                            <li><a href="#">mask</a></li>
+                            <li><a href="#">mask-border</a></li>
+                            <li><a href="#">mask-border-mode</a></li>
+                            <li><a href="#">mask-border-outset</a></li>
+                            <li><a href="#">mask-border-repeat</a></li>
+                            <li><a href="#">mask-border-slice</a></li>
+                            <li><a href="#">mask-border-source</a></li>
+                            <li><a href="#">mask-border-width</a></li>
+                            <li><a href="#">mask-clip</a></li>
+                            <li><a href="#">mask-composite</a></li>
+                            <li><a href="#">mask-image</a></li>
+                            <li><a href="#">mask-mode</a></li>
+                            <li><a href="#">mask-origin</a></li>
+                            <li><a href="#">mask-position</a></li>
+                            <li><a href="#">mask-repeat</a></li>
+                            <li><a href="#">mask-size</a></li>
+                            <li><a href="#">mask-type</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">math-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/math-depth.php">math-depth</a></li>
-                            <li><a href="/css-properties/math-style.php">math-style</a></li>
+                            <li><a href="#">math-depth</a></li>
+                            <li><a href="#">math-style</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">max-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/max-block-size.php">max-block-size</a></li>
-                            <li><a href="/css-properties/max-height.php">max-height</a></li>
-                            <li><a href="/css-properties/max-inline-size.php">max-inline-size</a></li>
-                            <li><a href="/css-properties/max-width.php">max-width</a></li>
+                            <li><a href="#">max-block-size</a></li>
+                            <li><a href="#">max-height</a></li>
+                            <li><a href="#">max-inline-size</a></li>
+                            <li><a href="#">max-width</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">min-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/min-block-size.php">min-block-size</a></li>
-                            <li><a href="/css-properties/min-height.php">min-height</a></li>
-                            <li><a href="/css-properties/min-inline-size.php">min-inline-size</a></li>
-                            <li><a href="/css-properties/min-width.php">min-width</a></li>
+                            <li><a href="#">min-block-size</a></li>
+                            <li><a href="#">min-height</a></li>
+                            <li><a href="#">min-inline-size</a></li>
+                            <li><a href="#">min-width</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/mix-blend-mode.php">mix-blend-mode</a></li>
+                    <li><a href="#">mix-blend-mode</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">object-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/object-fit.php">object-fit</a></li>
-                            <li><a href="/css-properties/object-position.php">object-position</a></li>
+                            <li><a href="#">object-fit</a></li>
+                            <li><a href="#">object-position</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">offset-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/offset.php">offset</a></li>
-                            <li><a href="/css-properties/offset-anchor.php">offset-anchor</a></li>
-                            <li><a href="/css-properties/offset-distance.php">offset-distance</a></li>
-                            <li><a href="/css-properties/offset-path.php">offset-path</a></li>
-                            <li><a href="/css-properties/offset-position.php">offset-position</a></li>
-                            <li><a href="/css-properties/offset-rotate.php">offset-rotate</a></li>
+                            <li><a href="#">offset</a></li>
+                            <li><a href="#">offset-anchor</a></li>
+                            <li><a href="#">offset-distance</a></li>
+                            <li><a href="#">offset-path</a></li>
+                            <li><a href="#">offset-position</a></li>
+                            <li><a href="#">offset-rotate</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/opacity.php">opacity</a></li>
-                    <li><a href="/css-properties/order.php">order</a></li>
-                    <li><a href="/css-properties/orphans.php">orphans</a></li>
+                    <li><a href="#">opacity</a></li>
+                    <li><a href="#">order</a></li>
+                    <li><a href="#">orphans</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">outline-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/outline.php">outline</a></li>
-                            <li><a href="/css-properties/outline-color.php">outline-color</a></li>
-                            <li><a href="/css-properties/outline-offset.php">outline-offset</a></li>
-                            <li><a href="/css-properties/outline-style.php">outline-style</a></li>
-                            <li><a href="/css-properties/outline-width.php">outline-width</a></li>
+                            <li><a href="#">outline</a></li>
+                            <li><a href="#">outline-color</a></li>
+                            <li><a href="#">outline-offset</a></li>
+                            <li><a href="#">outline-style</a></li>
+                            <li><a href="#">outline-width</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">overflow-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/overflow.php">overflow</a></li>
-                            <li><a href="/css-properties/overflow-anchor.php">overflow-anchor</a></li>
-                            <li><a href="/css-properties/overflow-block.php">overflow-block</a></li>
-                            <li><a href="/css-properties/overflow-clip-margin.php">overflow-clip-margin</a></li>
-                            <li><a href="/css-properties/overflow-inline.php">overflow-inline</a></li>
-                            <li><a href="/css-properties/overflow-wrap.php">overflow-wrap</a></li>
-                            <li><a href="/css-properties/overflow-x.php">overflow-x</a></li>
-                            <li><a href="/css-properties/overflow-y.php">overflow-y</a></li>
+                            <li><a href="#">overflow</a></li>
+                            <li><a href="#">overflow-anchor</a></li>
+                            <li><a href="#">overflow-block</a></li>
+                            <li><a href="#">overflow-clip-margin</a></li>
+                            <li><a href="#">overflow-inline</a></li>
+                            <li><a href="#">overflow-wrap</a></li>
+                            <li><a href="#">overflow-x</a></li>
+                            <li><a href="#">overflow-y</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">overscroll-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/overscroll-behavior.php">overscroll-behavior</a></li>
-                            <li><a href="/css-properties/overscroll-behavior-block.php">overscroll-behavior-block</a></li>
-                            <li><a href="/css-properties/overscroll-behavior-inline.php">overscroll-behavior-inline</a></li>
-                            <li><a href="/css-properties/overscroll-behavior-x.php">overscroll-behavior-x</a></li>
-                            <li><a href="/css-properties/overscroll-behavior-y.php">overscroll-behavior-y</a></li>
+                            <li><a href="#">overscroll-behavior</a></li>
+                            <li><a href="#">overscroll-behavior-block</a></li>
+                            <li><a href="#">overscroll-behavior-inline</a></li>
+                            <li><a href="#">overscroll-behavior-x</a></li>
+                            <li><a href="#">overscroll-behavior-y</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">padding-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/padding.php">padding</a></li>
-                            <li><a href="/css-properties/padding-block.php">padding-block</a></li>
-                            <li><a href="/css-properties/padding-block-end.php">padding-block-end</a></li>
-                            <li><a href="/css-properties/padding-block-start.php">padding-block-start</a></li>
-                            <li><a href="/css-properties/padding-bottom.php">padding-bottom</a></li>
-                            <li><a href="/css-properties/padding-inline.php">padding-inline</a></li>
-                            <li><a href="/css-properties/padding-inline-end.php">padding-inline-end</a></li>
-                            <li><a href="/css-properties/padding-inline-start.php">padding-inline-start</a></li>
-                            <li><a href="/css-properties/padding-left.php">padding-left</a></li>
-                            <li><a href="/css-properties/padding-right.php">padding-right</a></li>
-                            <li><a href="/css-properties/padding-top.php">padding-top</a></li>
+                            <li><a href="#">padding</a></li>
+                            <li><a href="#">padding-block</a></li>
+                            <li><a href="#">padding-block-end</a></li>
+                            <li><a href="#">padding-block-start</a></li>
+                            <li><a href="#">padding-bottom</a></li>
+                            <li><a href="#">padding-inline</a></li>
+                            <li><a href="#">padding-inline-end</a></li>
+                            <li><a href="#">padding-inline-start</a></li>
+                            <li><a href="#">padding-left</a></li>
+                            <li><a href="#">padding-right</a></li>
+                            <li><a href="#">padding-top</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/page.php">page</a></li>
-                    <li><a href="/css-properties/paint-order.php">paint-order</a></li>
+                    <li><a href="#">page</a></li>
+                    <li><a href="#">paint-order</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">perspective-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/perspective.php">perspective</a></li>
-                            <li><a href="/css-properties/perspective-origin.php">perspective-origin</a></li>
+                            <li><a href="#">perspective</a></li>
+                            <li><a href="#">perspective-origin</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">place-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/place-content.php">place-content</a></li>
-                            <li><a href="/css-properties/place-items.php">place-items</a></li>
-                            <li><a href="/css-properties/place-self.php">place-self</a></li>
+                            <li><a href="#">place-content</a></li>
+                            <li><a href="#">place-items</a></li>
+                            <li><a href="#">place-self</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/pointer-events.php">pointer-events</a></li>
-                    <li><a href="/css-properties/position.php">position</a></li>
-                    <li><a href="/css-properties/print-color-adjust.php">print-color-adjust</a></li>
-                    <li><a href="/css-properties/quotes.php">quotes</a></li>
-                    <li><a href="/css-properties/resize.php">resize</a></li>
-                    <li><a href="/css-properties/right.php">right</a></li>
-                    <li><a href="/css-properties/rotate.php">rotate</a></li>
-                    <li><a href="/css-properties/row-gap.php">row-gap</a></li>
+                    <li><a href="#">pointer-events</a></li>
+                    <li><a href="#">position</a></li>
+                    <li><a href="#">print-color-adjust</a></li>
+                    <li><a href="#">quotes</a></li>
+                    <li><a href="#">resize</a></li>
+                    <li><a href="#">right</a></li>
+                    <li><a href="#">rotate</a></li>
+                    <li><a href="#">row-gap</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">ruby-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/ruby-align.php">ruby-align</a></li>
-                            <li><a href="/css-properties/ruby-position.php">ruby-position</a></li>
+                            <li><a href="#">ruby-align</a></li>
+                            <li><a href="#">ruby-position</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/scale.php">scale</a></li>
+                    <li><a href="#">scale</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">scroll-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/scroll-behavior.php">scroll-behavior</a></li>
-                            <li><a href="/css-properties/scroll-margin.php">scroll-margin</a></li>
-                            <li><a href="/css-properties/scroll-margin-block.php">scroll-margin-block</a></li>
-                            <li><a href="/css-properties/scroll-margin-block-end.php">scroll-margin-block-end</a></li>
-                            <li><a href="/css-properties/scroll-margin-block-start.php">scroll-margin-block-start</a></li>
-                            <li><a href="/css-properties/scroll-margin-bottom.php">scroll-margin-bottom</a></li>
-                            <li><a href="/css-properties/scroll-margin-inline.php">scroll-margin-inline</a></li>
-                            <li><a href="/css-properties/scroll-margin-inline-end.php">scroll-margin-inline-end</a></li>
-                            <li><a href="/css-properties/scroll-margin-inline-start.php">scroll-margin-inline-start</a></li>
-                            <li><a href="/css-properties/scroll-margin-left.php">scroll-margin-left</a></li>
-                            <li><a href="/css-properties/scroll-margin-right.php">scroll-margin-right</a></li>
-                            <li><a href="/css-properties/scroll-margin-top.php">scroll-margin-top</a></li>
-                            <li><a href="/css-properties/scroll-padding.php">scroll-padding</a></li>
-                            <li><a href="/css-properties/scroll-padding-block.php">scroll-padding-block</a></li>
-                            <li><a href="/css-properties/scroll-padding-block-end.php">scroll-padding-block-end</a></li>
-                            <li><a href="/css-properties/scroll-padding-block-start.php">scroll-padding-block-start</a></li>
-                            <li><a href="/css-properties/scroll-padding-bottom.php">scroll-padding-bottom</a></li>
-                            <li><a href="/css-properties/scroll-padding-inline.php">scroll-padding-inline</a></li>
-                            <li><a href="/css-properties/scroll-padding-inline-end.php">scroll-padding-inline-end</a></li>
-                            <li><a href="/css-properties/scroll-padding-inline-start.php">scroll-padding-inline-start</a></li>
-                            <li><a href="/css-properties/scroll-padding-left.php">scroll-padding-left</a></li>
-                            <li><a href="/css-properties/scroll-padding-right.php">scroll-padding-right</a></li>
-                            <li><a href="/css-properties/scroll-padding-top.php">scroll-padding-top</a></li>
-                            <li><a href="/css-properties/scroll-snap-align.php">scroll-snap-align</a></li>
-                            <li><a href="/css-properties/scroll-snap-stop.php">scroll-snap-stop</a></li>
-                            <li><a href="/css-properties/scroll-snap-type.php">scroll-snap-type</a></li>
-                            <li><a href="/css-properties/scroll-timeline.php">scroll-timeline</a></li>
-                            <li><a href="/css-properties/scroll-timeline-axis.php">scroll-timeline-axis</a></li>
-                            <li><a href="/css-properties/scroll-timeline-name.php">scroll-timeline-name</a></li>
+                            <li><a href="#">scroll-behavior</a></li>
+                            <li><a href="#">scroll-margin</a></li>
+                            <li><a href="#">scroll-margin-block</a></li>
+                            <li><a href="#">scroll-margin-block-end</a></li>
+                            <li><a href="#">scroll-margin-block-start</a></li>
+                            <li><a href="#">scroll-margin-bottom</a></li>
+                            <li><a href="#">scroll-margin-inline</a></li>
+                            <li><a href="#">scroll-margin-inline-end</a></li>
+                            <li><a href="#">scroll-margin-inline-start</a></li>
+                            <li><a href="#">scroll-margin-left</a></li>
+                            <li><a href="#">scroll-margin-right</a></li>
+                            <li><a href="#">scroll-margin-top</a></li>
+                            <li><a href="#">scroll-padding</a></li>
+                            <li><a href="#">scroll-padding-block</a></li>
+                            <li><a href="#">scroll-padding-block-end</a></li>
+                            <li><a href="#">scroll-padding-block-start</a></li>
+                            <li><a href="#">scroll-padding-bottom</a></li>
+                            <li><a href="#">scroll-padding-inline</a></li>
+                            <li><a href="#">scroll-padding-inline-end</a></li>
+                            <li><a href="#">scroll-padding-inline-start</a></li>
+                            <li><a href="#">scroll-padding-left</a></li>
+                            <li><a href="#">scroll-padding-right</a></li>
+                            <li><a href="#">scroll-padding-top</a></li>
+                            <li><a href="#">scroll-snap-align</a></li>
+                            <li><a href="#">scroll-snap-stop</a></li>
+                            <li><a href="#">scroll-snap-type</a></li>
+                            <li><a href="#">scroll-timeline</a></li>
+                            <li><a href="#">scroll-timeline-axis</a></li>
+                            <li><a href="#">scroll-timeline-name</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">scrollbar-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/scrollbar-color.php">scrollbar-color</a></li>
-                            <li><a href="/css-properties/scrollbar-gutter.php">scrollbar-gutter</a></li>
-                            <li><a href="/css-properties/scrollbar-width.php">scrollbar-width</a></li>
+                            <li><a href="#">scrollbar-color</a></li>
+                            <li><a href="#">scrollbar-gutter</a></li>
+                            <li><a href="#">scrollbar-width</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">shape-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/shape-image-threshold.php">shape-image-threshold</a></li>
-                            <li><a href="/css-properties/shape-margin.php">shape-margin</a></li>
-                            <li><a href="/css-properties/shape-outside.php">shape-outside</a></li>
+                            <li><a href="#">shape-image-threshold</a></li>
+                            <li><a href="#">shape-margin</a></li>
+                            <li><a href="#">shape-outside</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">stop-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/stop-color.php">stop-color</a></li>
-                            <li><a href="/css-properties/stop-opacity.php">stop-opacity</a></li>
+                            <li><a href="#">stop-color</a></li>
+                            <li><a href="#">stop-opacity</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">stroke-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/stroke.php">stroke</a></li>
-                            <li><a href="/css-properties/stroke-dasharray.php">stroke-dasharray</a></li>
-                            <li><a href="/css-properties/stroke-dashoffset.php">stroke-dashoffset</a></li>
-                            <li><a href="/css-properties/stroke-linecap.php">stroke-linecap</a></li>
-                            <li><a href="/css-properties/stroke-linejoin.php">stroke-linejoin</a></li>
-                            <li><a href="/css-properties/stroke-miterlimit.php">stroke-miterlimit</a></li>
-                            <li><a href="/css-properties/stroke-opacity.php">stroke-opacity</a></li>
-                            <li><a href="/css-properties/stroke-width.php">stroke-width</a></li>
+                            <li><a href="#">stroke</a></li>
+                            <li><a href="#">stroke-dasharray</a></li>
+                            <li><a href="#">stroke-dashoffset</a></li>
+                            <li><a href="#">stroke-linecap</a></li>
+                            <li><a href="#">stroke-linejoin</a></li>
+                            <li><a href="#">stroke-miterlimit</a></li>
+                            <li><a href="#">stroke-opacity</a></li>
+                            <li><a href="#">stroke-width</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/tab-size.php">tab-size</a></li>
-                    <li><a href="/css-properties/table-layout.php">table-layout</a></li>
+                    <li><a href="#">tab-size</a></li>
+                    <li><a href="#">table-layout</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">text-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/text-align.php">text-align</a></li>
-                            <li><a href="/css-properties/text-align-last.php">text-align-last</a></li>
-                            <li><a href="/css-properties/text-anchor.php">text-anchor</a></li>
-                            <li><a href="/css-properties/text-autospace.php">text-autospace</a></li>
-                            <li><a href="/css-properties/text-box.php">text-box</a></li>
-                            <li><a href="/css-properties/text-box-edge.php">text-box-edge</a></li>
-                            <li><a href="/css-properties/text-box-trim.php">text-box-trim</a></li>
-                            <li><a href="/css-properties/text-combine-upright.php">text-combine-upright</a></li>
-                            <li><a href="/css-properties/text-decoration.php">text-decoration</a></li>
-                            <li><a href="/css-properties/text-decoration-color.php">text-decoration-color</a></li>
-                            <li><a href="/css-properties/text-decoration-line.php">text-decoration-line</a></li>
-                            <li><a href="/css-properties/text-decoration-skip-ink.php">text-decoration-skip-ink</a></li>
-                            <li><a href="/css-properties/text-decoration-style.php">text-decoration-style</a></li>
-                            <li><a href="/css-properties/text-decoration-thickness.php">text-decoration-thickness</a></li>
-                            <li><a href="/css-properties/text-emphasis.php">text-emphasis</a></li>
-                            <li><a href="/css-properties/text-emphasis-color.php">text-emphasis-color</a></li>
-                            <li><a href="/css-properties/text-emphasis-position.php">text-emphasis-position</a></li>
-                            <li><a href="/css-properties/text-emphasis-style.php">text-emphasis-style</a></li>
-                            <li><a href="/css-properties/text-indent.php">text-indent</a></li>
-                            <li><a href="/css-properties/text-justify.php">text-justify</a></li>
-                            <li><a href="/css-properties/text-orientation.php">text-orientation</a></li>
-                            <li><a href="/css-properties/text-overflow.php">text-overflow</a></li>
-                            <li><a href="/css-properties/text-rendering.php">text-rendering</a></li>
-                            <li><a href="/css-properties/text-shadow.php">text-shadow</a></li>
-                            <li><a href="/css-properties/text-transform.php">text-transform</a></li>
-                            <li><a href="/css-properties/text-underline-offset.php">text-underline-offset</a></li>
-                            <li><a href="/css-properties/text-underline-position.php">text-underline-position</a></li>
-                            <li><a href="/css-properties/text-wrap.php">text-wrap</a></li>
-                            <li><a href="/css-properties/text-wrap-mode.php">text-wrap-mode</a></li>
-                            <li><a href="/css-properties/text-wrap-style.php">text-wrap-style</a></li>
+                            <li><a href="#">text-align</a></li>
+                            <li><a href="#">text-align-last</a></li>
+                            <li><a href="#">text-anchor</a></li>
+                            <li><a href="#">text-autospace</a></li>
+                            <li><a href="#">text-box</a></li>
+                            <li><a href="#">text-box-edge</a></li>
+                            <li><a href="#">text-box-trim</a></li>
+                            <li><a href="#">text-combine-upright</a></li>
+                            <li><a href="#">text-decoration</a></li>
+                            <li><a href="#">text-decoration-color</a></li>
+                            <li><a href="#">text-decoration-line</a></li>
+                            <li><a href="#">text-decoration-skip-ink</a></li>
+                            <li><a href="#">text-decoration-style</a></li>
+                            <li><a href="#">text-decoration-thickness</a></li>
+                            <li><a href="#">text-emphasis</a></li>
+                            <li><a href="#">text-emphasis-color</a></li>
+                            <li><a href="#">text-emphasis-position</a></li>
+                            <li><a href="#">text-emphasis-style</a></li>
+                            <li><a href="#">text-indent</a></li>
+                            <li><a href="#">text-justify</a></li>
+                            <li><a href="#">text-orientation</a></li>
+                            <li><a href="#">text-overflow</a></li>
+                            <li><a href="#">text-rendering</a></li>
+                            <li><a href="#">text-shadow</a></li>
+                            <li><a href="#">text-transform</a></li>
+                            <li><a href="#">text-underline-offset</a></li>
+                            <li><a href="#">text-underline-position</a></li>
+                            <li><a href="#">text-wrap</a></li>
+                            <li><a href="#">text-wrap-mode</a></li>
+                            <li><a href="#">text-wrap-style</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/top.php">top</a></li>
-                    <li><a href="/css-properties/touch-action.php">touch-action</a></li>
+                    <li><a href="#">top</a></li>
+                    <li><a href="#">touch-action</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">transform-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/transform.php">transform</a></li>
-                            <li><a href="/css-properties/transform-box.php">transform-box</a></li>
-                            <li><a href="/css-properties/transform-origin.php">transform-origin</a></li>
-                            <li><a href="/css-properties/transform-style.php">transform-style</a></li>
+                            <li><a href="#">transform</a></li>
+                            <li><a href="#">transform-box</a></li>
+                            <li><a href="#">transform-origin</a></li>
+                            <li><a href="#">transform-style</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">transition-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/transition.php">transition</a></li>
-                            <li><a href="/css-properties/transition-delay.php">transition-delay</a></li>
-                            <li><a href="/css-properties/transition-duration.php">transition-duration</a></li>
-                            <li><a href="/css-properties/transition-property.php">transition-property</a></li>
-                            <li><a href="/css-properties/transition-timing-function.php">transition-timing-function</a></li>
+                            <li><a href="#">transition</a></li>
+                            <li><a href="#">transition-delay</a></li>
+                            <li><a href="#">transition-duration</a></li>
+                            <li><a href="#">transition-property</a></li>
+                            <li><a href="#">transition-timing-function</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/translate.php">translate</a></li>
-                    <li><a href="/css-properties/unicode-bidi.php">unicode-bidi</a></li>
-                    <li><a href="/css-properties/user-select.php">user-select</a></li>
-                    <li><a href="/css-properties/vector-effect.php">vector-effect</a></li>
-                    <li><a href="/css-properties/vertical-align.php">vertical-align</a></li>
+                    <li><a href="#">translate</a></li>
+                    <li><a href="#">unicode-bidi</a></li>
+                    <li><a href="#">user-select</a></li>
+                    <li><a href="#">vector-effect</a></li>
+                    <li><a href="#">vertical-align</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">view-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/view-timeline.php">view-timeline</a></li>
-                            <li><a href="/css-properties/view-timeline-axis.php">view-timeline-axis</a></li>
-                            <li><a href="/css-properties/view-timeline-inset.php">view-timeline-inset</a></li>
-                            <li><a href="/css-properties/view-timeline-name.php">view-timeline-name</a></li>
-                            <li><a href="/css-properties/view-transition-class.php">view-transition-class</a></li>
-                            <li><a href="/css-properties/view-transition-name.php">view-transition-name</a></li>
+                            <li><a href="#">view-timeline</a></li>
+                            <li><a href="#">view-timeline-axis</a></li>
+                            <li><a href="#">view-timeline-inset</a></li>
+                            <li><a href="#">view-timeline-name</a></li>
+                            <li><a href="#">view-transition-class</a></li>
+                            <li><a href="#">view-transition-name</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/visibility.php">visibility</a></li>
-                    <li><a href="/css-properties/white-space.php">white-space</a></li>
-                    <li><a href="/css-properties/widows.php">widows</a></li>
-                    <li><a href="/css-properties/width.php">width</a></li>
-                    <li><a href="/css-properties/will-change.php">will-change</a></li>
+                    <li><a href="#">visibility</a></li>
+                    <li><a href="#">white-space</a></li>
+                    <li><a href="#">widows</a></li>
+                    <li><a href="#">width</a></li>
+                    <li><a href="#">will-change</a></li>
                     <li class="has-dropdown">
                         <div class="has-dropdown">word-*</div>
                         <ul class="sub-menu" style="display: none">
-                            <li><a href="/css-properties/word-break.php">word-break</a></li>
-                            <li><a href="/css-properties/word-spacing.php">word-spacing</a></li>
-                            <li><a href="/css-properties/word-wrap.php">word-wrap</a></li>
+                            <li><a href="#">word-break</a></li>
+                            <li><a href="#">word-spacing</a></li>
+                            <li><a href="#">word-wrap</a></li>
                         </ul>
                     </li>
-                    <li><a href="/css-properties/writing-mode.php">writing-mode</a></li>
-                    <li><a href="/css-properties/z-index.php">z-index</a></li>
+                    <li><a href="#">writing-mode</a></li>
+                    <li><a href="#">z-index</a></li>
                 </ul>
             </li>
 
@@ -1040,34 +1040,34 @@
                     <span class="text">CSS Pseudo Classes</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-pseudo-class/after.php">::after</a></li>
-                    <li><a href="/css-pseudo-class/backdrop.php">::backdrop</a></li>
-                    <li><a href="/css-pseudo-class/before.php">::before</a></li>
-                    <li><a href="/css-pseudo-class/checkmark.php">::checkmark</a></li>
-                    <li><a href="/css-pseudo-class/column.php">::column</a></li>
-                    <li><a href="/css-pseudo-class/cue.php">::cue</a></li>
-                    <li><a href="/css-pseudo-class/details-content.php">::details-content</a></li>
-                    <li><a href="/css-pseudo-class/file-selector-button.php">::file-selector-button</a></li>
-                    <li><a href="/css-pseudo-class/first-letter.php">::first-letter</a></li>
-                    <li><a href="/css-pseudo-class/first-line.php">::first-line</a></li>
-                    <li><a href="/css-pseudo-class/grammar-error.php">::grammar-error</a></li>
-                    <li><a href="/css-pseudo-class/marker.php">::marker</a></li>
-                    <li><a href="/css-pseudo-class/part.php">::part()</a></li>
-                    <li><a href="/css-pseudo-class/picker.php">::picker()</a></li>
-                    <li><a href="/css-pseudo-class/picker-icon.php">::picker-icon</a></li>
-                    <li><a href="/css-pseudo-class/placeholder.php">::placeholder</a></li>
-                    <li><a href="/css-pseudo-class/scroll-button.php">::scroll-button()</a></li>
-                    <li><a href="/css-pseudo-class/scroll-marker.php">::scroll-marker</a></li>
-                    <li><a href="/css-pseudo-class/scroll-marker-group.php">::scroll-marker-group</a></li>
-                    <li><a href="/css-pseudo-class/selection.php">::selection</a></li>
-                    <li><a href="/css-pseudo-class/slotted.php">::slotted()</a></li>
-                    <li><a href="/css-pseudo-class/spelling-error.php">::spelling-error</a></li>
-                    <li><a href="/css-pseudo-class/target-text.php">::target-text</a></li>
-                    <li><a href="/css-pseudo-class/view-transition.php">::view-transition</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-group.php">::view-transition-group()</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-image-pair.php">::view-transition-image-pair()</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-new.php">::view-transition-new()</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-old.php">::view-transition-old()</a></li>
+                    <li><a href="#">::after</a></li>
+                    <li><a href="#">::backdrop</a></li>
+                    <li><a href="#">::before</a></li>
+                    <li><a href="#">::checkmark</a></li>
+                    <li><a href="#">::column</a></li>
+                    <li><a href="#">::cue</a></li>
+                    <li><a href="#">::details-content</a></li>
+                    <li><a href="#">::file-selector-button</a></li>
+                    <li><a href="#">::first-letter</a></li>
+                    <li><a href="#">::first-line</a></li>
+                    <li><a href="#">::grammar-error</a></li>
+                    <li><a href="#">::marker</a></li>
+                    <li><a href="#">::part()</a></li>
+                    <li><a href="#">::picker()</a></li>
+                    <li><a href="#">::picker-icon</a></li>
+                    <li><a href="#">::placeholder</a></li>
+                    <li><a href="#">::scroll-button()</a></li>
+                    <li><a href="#">::scroll-marker</a></li>
+                    <li><a href="#">::scroll-marker-group</a></li>
+                    <li><a href="#">::selection</a></li>
+                    <li><a href="#">::slotted()</a></li>
+                    <li><a href="#">::spelling-error</a></li>
+                    <li><a href="#">::target-text</a></li>
+                    <li><a href="#">::view-transition</a></li>
+                    <li><a href="#">::view-transition-group()</a></li>
+                    <li><a href="#">::view-transition-image-pair()</a></li>
+                    <li><a href="#">::view-transition-new()</a></li>
+                    <li><a href="#">::view-transition-old()</a></li>
                 </ul>
             </li>
 
@@ -1079,34 +1079,34 @@
                     <span class="text">CSS Pseudo Elements</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-pseudo-class/after.php">::after</a></li>
-                    <li><a href="/css-pseudo-class/backdrop.php">::backdrop</a></li>
-                    <li><a href="/css-pseudo-class/before.php">::before</a></li>
-                    <li><a href="/css-pseudo-class/checkmark.php">::checkmark</a></li>
-                    <li><a href="/css-pseudo-class/column.php">::column</a></li>
-                    <li><a href="/css-pseudo-class/cue.php">::cue</a></li>
-                    <li><a href="/css-pseudo-class/details-content.php">::details-content</a></li>
-                    <li><a href="/css-pseudo-class/file-selector-button.php">::file-selector-button</a></li>
-                    <li><a href="/css-pseudo-class/first-letter.php">::first-letter</a></li>
-                    <li><a href="/css-pseudo-class/first-line.php">::first-line</a></li>
-                    <li><a href="/css-pseudo-class/grammar-error.php">::grammar-error</a></li>
-                    <li><a href="/css-pseudo-class/marker.php">::marker</a></li>
-                    <li><a href="/css-pseudo-class/part.php">::part()</a></li>
-                    <li><a href="/css-pseudo-class/picker.php">::picker()</a></li>
-                    <li><a href="/css-pseudo-class/picker-icon.php">::picker-icon</a></li>
-                    <li><a href="/css-pseudo-class/placeholder.php">::placeholder</a></li>
-                    <li><a href="/css-pseudo-class/scroll-button.php">::scroll-button()</a></li>
-                    <li><a href="/css-pseudo-class/scroll-marker.php">::scroll-marker</a></li>
-                    <li><a href="/css-pseudo-class/scroll-marker-group.php">::scroll-marker-group</a></li>
-                    <li><a href="/css-pseudo-class/selection.php">::selection</a></li>
-                    <li><a href="/css-pseudo-class/slotted.php">::slotted()</a></li>
-                    <li><a href="/css-pseudo-class/spelling-error.php">::spelling-error</a></li>
-                    <li><a href="/css-pseudo-class/target-text.php">::target-text</a></li>
-                    <li><a href="/css-pseudo-class/view-transition.php">::view-transition</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-group.php">::view-transition-group()</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-image-pair.php">::view-transition-image-pair()</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-new.php">::view-transition-new()</a></li>
-                    <li><a href="/css-pseudo-class/view-transition-old.php">::view-transition-old()</a></li>
+                    <li><a href="#">::after</a></li>
+                    <li><a href="#">::backdrop</a></li>
+                    <li><a href="#">::before</a></li>
+                    <li><a href="#">::checkmark</a></li>
+                    <li><a href="#">::column</a></li>
+                    <li><a href="#">::cue</a></li>
+                    <li><a href="#">::details-content</a></li>
+                    <li><a href="#">::file-selector-button</a></li>
+                    <li><a href="#">::first-letter</a></li>
+                    <li><a href="#">::first-line</a></li>
+                    <li><a href="#">::grammar-error</a></li>
+                    <li><a href="#">::marker</a></li>
+                    <li><a href="#">::part()</a></li>
+                    <li><a href="#">::picker()</a></li>
+                    <li><a href="#">::picker-icon</a></li>
+                    <li><a href="#">::placeholder</a></li>
+                    <li><a href="#">::scroll-button()</a></li>
+                    <li><a href="#">::scroll-marker</a></li>
+                    <li><a href="#">::scroll-marker-group</a></li>
+                    <li><a href="#">::selection</a></li>
+                    <li><a href="#">::slotted()</a></li>
+                    <li><a href="#">::spelling-error</a></li>
+                    <li><a href="#">::target-text</a></li>
+                    <li><a href="#">::view-transition</a></li>
+                    <li><a href="#">::view-transition-group()</a></li>
+                    <li><a href="#">::view-transition-image-pair()</a></li>
+                    <li><a href="#">::view-transition-new()</a></li>
+                    <li><a href="#">::view-transition-old()</a></li>
                 </ul>
             </li>
 
@@ -1118,26 +1118,26 @@
                     <span class="text">CSS Selectors</span>
                 </div>
                 <ul class="sidebar-submenu ajax-content">
-                    <li><a href="/css-selectors/selector-nesting.php">&amp; Nesting</a></li>
-                    <li><a href="/css-selectors/selector-greater.php">Child Combinator (&gt;)</a></li>
-                    <li><a href="/css-selectors/selector-class.php">Class Selector</a></li>
-                    <li><a href="/css-selectors/selector-element-element.php">Descendant Combinator</a></li>
-                    <li><a href="/css-selectors/selector-id.php">ID Selector</a></li>
-                    <li><a href="/css-selectors/selector-namespace.php">Namespace Selector (|)</a></li>
-                    <li><a href="/css-selectors/selector-plus.php">Next-Sibling Combinator (+)</a></li>
-                    <li><a href="/css-selectors/selector-element-comma.php">Selector List (,)</a></li>
-                    <li><a href="/css-selectors/selector-tilde.php">Subsequent-Sibling Combinator (~)</a></li>
-                    <li><a href="/css-selectors/selector-element.php">Type Selector</a></li>
-                    <li><a href="/css-selectors/selector-all.php">Universal Selector</a></li>
-                    <li><a href="/css-selectors/selector-operator-value-i.php">[attribute operator value i]</a></li>
-                    <li><a href="/css-selectors/selector-operator-value-s.php">[attribute operator value s]</a></li>
-                    <li><a href="/css-selectors/selector-attribute-value-end.php">[attribute$=value]</a></li>
-                    <li><a href="/css-selectors/selector-attribute-value-contain.php">[attribute*=value]</a></li>
-                    <li><a href="/css-selectors/selector-attribute-value.php">[attribute=value]</a></li>
-                    <li><a href="/css-selectors/selector-attribute.php">[attribute]</a></li>
-                    <li><a href="/css-selectors/selector-attribute-value-begin.php">[attribute^=value]</a></li>
-                    <li><a href="/css-selectors/selector-attribute-value-lang.php">[attribute|=value]</a></li>
-                    <li><a href="/css-selectors/selector-attribute-value-contains.php">[attribute~=value]</a></li>
+                    <li><a href="#">&amp; Nesting</a></li>
+                    <li><a href="#">Child Combinator (&gt;)</a></li>
+                    <li><a href="#">Class Selector</a></li>
+                    <li><a href="#">Descendant Combinator</a></li>
+                    <li><a href="#">ID Selector</a></li>
+                    <li><a href="#">Namespace Selector (|)</a></li>
+                    <li><a href="#">Next-Sibling Combinator (+)</a></li>
+                    <li><a href="#">Selector List (,)</a></li>
+                    <li><a href="#">Subsequent-Sibling Combinator (~)</a></li>
+                    <li><a href="#">Type Selector</a></li>
+                    <li><a href="#">Universal Selector</a></li>
+                    <li><a href="#">[attribute operator value i]</a></li>
+                    <li><a href="#">[attribute operator value s]</a></li>
+                    <li><a href="#">[attribute$=value]</a></li>
+                    <li><a href="#">[attribute*=value]</a></li>
+                    <li><a href="#">[attribute=value]</a></li>
+                    <li><a href="#">[attribute]</a></li>
+                    <li><a href="#">[attribute^=value]</a></li>
+                    <li><a href="#">[attribute|=value]</a></li>
+                    <li><a href="#">[attribute~=value]</a></li>
                 </ul>
             </li>				
 
