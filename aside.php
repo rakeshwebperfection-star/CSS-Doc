@@ -1,6 +1,6 @@
     <aside class="sidebar">
         <button type="button" class="sidebar-close-btn"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="02 User"><path d="M25 512a25 25 0 0 1-17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462A24.93 24.93 0 0 1 25 512z" fill="#ffffff" opacity="1" data-original="#ffffff"></path><path d="M487 512a24.93 24.93 0 0 1-17.68-7.32l-462-462A25 25 0 0 1 42.68 7.32l462 462A25 25 0 0 1 487 512z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></g></svg></button>
-        <a href="#" class="sidebar__Logo fw-bold text-decoration-none d-flex align-items-center justify-content-center border-bottom py-2 gap-2">
+        <a href="index.php" class="sidebar__Logo fw-bold text-decoration-none d-flex align-items-center justify-content-center border-bottom py-2 gap-2">
             <span class="logo-txt fs-2">CSS <span class="text-primary">Docs</span></span>
         </a>
         <div class="sidebar-menu-wrapper overflow-y-auto">

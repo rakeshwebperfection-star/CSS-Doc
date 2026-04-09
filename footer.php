@@ -44,6 +44,33 @@
         });
     </script>
 
+<!-- <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const searchBtn = document.querySelector(".search-btn");
+            const searchOverlay = document.querySelector(".search-overlay");
+            const searchBar = document.querySelector(".search-bar");
+            
+            function isMobile() {
+                return window.matchMedia("(max-width: 1199px)").matches;
+            }
+
+            searchBtn.addEventListener("click", (e) => {
+                if (!isMobile()) return;
+
+                e.preventDefault();
+                searchOverlay.style.transform = "translateY(0)";
+                searchBar.style.transform = "translateY(0)";
+            });
+
+            searchOverlay.addEventListener("click", () => {
+                if (!isMobile()) return;
+
+                searchOverlay.style.transform = "translateY(-100%)";
+                searchBar.style.transform = "translateY(-100%)";
+            });
+        });
+    </script> -->
+
     <!-- <script>
         document.querySelectorAll("a").forEach(link => {
             link.addEventListener("click", function(e) {
@@ -53,5 +80,6 @@
         });
     </script> -->
 
+    <script src="search.js"></script>
 </body>
 </html>

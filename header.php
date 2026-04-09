@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -16,15 +18,30 @@
 
 <div id="main-content" class="dashboard-main-wrapper">
     <div class="top-navbar border-bottom">
-        <div class="d-flex align-items-center gap-4">
+        <div class="d-flex align-items-center gap-2 gap-md-4">
             <div class="thinumber_Icon">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><clipPath id="a"><path d="M0 .001h24v24H0z" fill="#000000" opacity="1" data-original="#000000" class=""></path></clipPath><g clip-path="url(#a)"><path stroke="#292929" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6.001h18m-18 6h18m-18 6h18" fill="#000000" opacity="1" data-original="#000000" class=""></path></g></g></svg>
             </div>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search......" aria-label="Search"/>
-                <button class="btn btn-primary text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 1707 1707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M623 1250c-166 0-323-65-440-183C65 949 0 793 0 627c0-167 65-323 183-441C300 68 457 4 623 4s323 64 441 182c117 118 182 274 182 441 0 166-65 322-182 440-118 118-275 183-441 183zm0-140c-129 0-251-50-342-141-91-92-142-213-142-342 0-130 51-251 142-343 91-91 213-141 342-141s251 50 342 141c189 189 189 496 0 685-91 91-213 141-342 141zM1198 1309c-8 0-16-3-22-9l-134-134c23-18 44-36 64-57 23-22 43-46 62-71l135 135c12 12 12 31 0 43-6 5-13 8-21 8-7 0-13-2-18-6l-39 48c5 11 3 24-6 34-6 6-14 9-21 9z" fill="#ffffff" opacity="1" data-original="#ffffff" class=""></path><path d="M1577 1703c-34 0-67-13-91-38l-282-281c-24-24-37-57-37-91 0-35 13-68 37-92 25-24 57-38 92-38s67 14 92 38l281 281c50 51 50 133 0 183-25 25-57 38-92 38zM421 829c-112-112-112-293 0-405 11-12 11-31 0-42-12-12-31-12-43 0-135 135-135 354 0 489 6 6 14 9 21 9 8 0 16-3 22-9 11-11 11-30 0-42z" fill="#fffffff" opacity="1" data-original="#ffffff" class=""></path></g></svg>
+            <form class="d-flex position-relative" role="search" onsubmit="handleSearch(event)">
+                
+                <div class="search-bar me-2 w-100">
+                    <input 
+                        id="searchInput"
+                        class="form-control" 
+                        type="search" 
+                        placeholder="Search CSS topics..." 
+                        onkeyup="showSuggestions()"
+                        autocomplete="off"
+                    />
+                </div>
+
+                <button class="btn btn-primary text-white search-btn" type="submit">
+                    Search
                 </button>
+
+                <!-- Suggestions Box -->
+                <div id="suggestionsBox" class="suggestions-box"></div>
+
             </form>
         </div>
         <div class="d-flex align-item-center gap-3">
@@ -69,7 +86,7 @@
                 </div>
             </div>
             <div class="notification">
-                <a href="#" class="btn btn-primary d-flex align-items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill: #ffffff" width="17" height="17" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path fill="#ffffff" d="M15.4 62c-1 0-2-.2-2.9-.7-2.4-1.1-3.8-3.4-3.8-6.1V8.7c0-3.7 3-6.7 6.7-6.7h33.2c3.7 0 6.7 3 6.7 6.7v46.6c0 2.6-1.5 4.9-3.8 6.1-2.4 1.1-5.1.8-7.1-.9l-10.7-8.7c-1-.8-2.4-.8-3.4 0l-10.7 8.7c-1.2 1-2.7 1.5-4.2 1.5zM32 47.1c1.5 0 3 .5 4.2 1.5l10.7 8.7c.8.7 1.9.8 2.9.4 1-.5 1.5-1.4 1.5-2.4V8.7c0-1.5-1.2-2.7-2.7-2.7H15.4c-1.5 0-2.7 1.2-2.7 2.7v46.6c0 1.1.6 2 1.5 2.4 1 .5 2 .3 2.9-.4l10.7-8.7c1.2-.9 2.7-1.5 4.2-1.5z" opacity="1" data-original="#2b3954" class=""></path><path fill="#e8335a" d="M40.9 16.4H23.3c-1.1 0-2-.9-2-2s.9-2 2-2h17.5c1.1 0 2 .9 2 2s-.8 2-1.9 2z" opacity="1" data-original="#03b8ff" class=""></path></g></svg> Favorites</a>                
+                <a href="#" class="btn btn-primary d-flex align-items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.1 16.8a1.5 1.5 0 0 1 1.8 0l3.2 2.4c.989.742 2.4.036 2.4-1.2V5A1.5 1.5 0 0 0 17 3.5H7A1.5 1.5 0 0 0 5.5 5v13c0 1.236 1.411 1.942 2.4 1.2zM12 18l3.2 2.4c1.978 1.483 4.8.072 4.8-2.4V5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v13c0 2.472 2.822 3.883 4.8 2.4z" fill="#fff" opacity="1" data-original="#fff" class=""></path><path d="M8.25 7A.75.75 0 0 1 9 6.25h6a.75.75 0 0 1 0 1.5H9A.75.75 0 0 1 8.25 7z" fill="#fff" opacity="1" data-original="#fff" class=""></path></g></g></svg> Favorites</a>                
             </div>
         </div>
     </div>
