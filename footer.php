@@ -1,5 +1,21 @@
 
 </main>
+    <footer class="footer_Wrapper">
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-sm-between gap-1 gap-sm-2">
+                        <p class="m-0">Copyright &copy; 2026 <a href="javascript:void(0)">CSS Docs</a>. All Rights Reserved.</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <a href="javascript:void(0)" class="text-gray-300 text-13 fw-normal">Contact</a>
+                            <a href="javascript:void(0)" class="text-gray-300 text-13 fw-normal">Privacy Policy</a>
+                            <a href="javascript:void(0)" class="text-gray-300 text-13 fw-normal">Donations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -71,14 +87,14 @@
         });
     </script> -->
 
-    <!-- <script>
-        document.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", function(e) {
+    <script>
+        document.querySelectorAll('a[href="#"]').forEach(link => {
+            link.addEventListener("click", (e) => {
                 e.preventDefault();
                 window.location.href = "404.php";
             });
         });
-    </script> -->
+    </script>
 
     <script src="search.js"></script>
 </body>

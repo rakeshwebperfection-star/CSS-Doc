@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>CSS Docs</title>
 </head>
@@ -23,25 +24,12 @@
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><clipPath id="a"><path d="M0 .001h24v24H0z" fill="#000000" opacity="1" data-original="#000000" class=""></path></clipPath><g clip-path="url(#a)"><path stroke="#292929" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6.001h18m-18 6h18m-18 6h18" fill="#000000" opacity="1" data-original="#000000" class=""></path></g></g></svg>
             </div>
             <form class="d-flex position-relative" role="search" onsubmit="handleSearch(event)">
-                
-                <div class="search-bar me-2 w-100">
-                    <input 
-                        id="searchInput"
-                        class="form-control" 
-                        type="search" 
-                        placeholder="Search CSS topics..." 
-                        onkeyup="showSuggestions()"
-                        autocomplete="off"
-                    />
+                <div class="search-bar me-1 w-100">
+                    <input id="searchInput" class="form-control" type="search" placeholder="Search CSS topics..."  onkeyup="showSuggestions()" autocomplete="off" />
                 </div>
-
-                <button class="btn btn-primary text-white search-btn" type="submit">
-                    Search
-                </button>
-
+                <a href="#" class="btn btn-primary fs-6 text-white search-btn min-w-auto px-lg-4">Search</a>
                 <!-- Suggestions Box -->
                 <div id="suggestionsBox" class="suggestions-box"></div>
-
             </form>
         </div>
         <div class="d-flex align-item-center gap-3">
@@ -86,7 +74,7 @@
                 </div>
             </div>
             <div class="notification">
-                <a href="#" class="btn btn-primary d-flex align-items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.1 16.8a1.5 1.5 0 0 1 1.8 0l3.2 2.4c.989.742 2.4.036 2.4-1.2V5A1.5 1.5 0 0 0 17 3.5H7A1.5 1.5 0 0 0 5.5 5v13c0 1.236 1.411 1.942 2.4 1.2zM12 18l3.2 2.4c1.978 1.483 4.8.072 4.8-2.4V5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v13c0 2.472 2.822 3.883 4.8 2.4z" fill="#fff" opacity="1" data-original="#fff" class=""></path><path d="M8.25 7A.75.75 0 0 1 9 6.25h6a.75.75 0 0 1 0 1.5H9A.75.75 0 0 1 8.25 7z" fill="#fff" opacity="1" data-original="#fff" class=""></path></g></g></svg> Favorites</a>                
+                <a href="#" class="btn btn-primary d-flex align-items-center gap-1 min-w-auto"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11.1 16.8a1.5 1.5 0 0 1 1.8 0l3.2 2.4c.989.742 2.4.036 2.4-1.2V5A1.5 1.5 0 0 0 17 3.5H7A1.5 1.5 0 0 0 5.5 5v13c0 1.236 1.411 1.942 2.4 1.2zM12 18l3.2 2.4c1.978 1.483 4.8.072 4.8-2.4V5a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v13c0 2.472 2.822 3.883 4.8 2.4z" fill="#fff" opacity="1" data-original="#fff" class=""></path><path d="M8.25 7A.75.75 0 0 1 9 6.25h6a.75.75 0 0 1 0 1.5H9A.75.75 0 0 1 8.25 7z" fill="#fff" opacity="1" data-original="#fff" class=""></path></g></g></svg> Favorites</a>                
             </div>
         </div>
     </div>

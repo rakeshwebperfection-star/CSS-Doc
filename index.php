@@ -1,23 +1,30 @@
 <?php include 'header.php'; ?>
 
+
+  <p class="d-none">Shri Guru Charan Saroj raj, Nij manu Mukuru sudhari Baranau Raghuvar Bimal Jasu, Jo Dayaku Phala Chari Budhiheen Tanu Janike, Sumirau Pavan‑Kumar Bal Buddhi Vidya Dehu Mohi, Harahu Kalesa Vikar Jai Hanuman gyan gun sagar Jai Kapis tihun lok ujagar Ram doot atulit bal dhama Anjani‑putra Pavan sut nama Mahavir Vikram Bajrangi Kumati nivar sumati ke sangi Kanchan varan viraj suvesa Kanan kundal kunchit kesa Hath vajra aur dhvaja viraje Kandhe moonj janeu saje Sankar suvan Kesari nandan Tej pratap maha jag vandan Vidyavan guni ati chatur Ram kaj karibe ko aatur Prabhu charitra sunibe ko rasiya Ram Lakhan Sita man basiya Sukshma roop dhari Siyahi dikhava Vikat roop dhari Lank jarava Bhima roop dhari asur sanhare Ramchandra ke kaj sanvare Laye Sanjivan Lakhan jiyaye Shri Raghubir harashi ur laye Raghupati kinhi bahut badai Tum mam priya Bharat‑hi sam bhai Sahas badan tumharo yash gaave Asa kahi Shripati kanth lagaave Sankadik Brahmadi Muneesa Narad‑Sarad sahit Ahisa Yam Kuber Digpal jahan te Kavi kovid kahi sake kahan te Tum upkar Sugrivahin keenha Ram milaye rajpad deenha Tumharo mantra Vibhishan mana Lankeshwar bhaye sab jag jana Yug sahasra yojan par Bhanu Leelyo taahi madhur phal janu Prabhu mudrika meli mukh mahee Jaladhi langhi gaye achraj nahee Durgam kaj jagat ke jete Sugam anugrah tumhare tete Ram dware tum rakhvare Hot na agya binu paisare Sab sukh lahai tumhari sarna Tum rakshak kahu ko darna Aapan tej samharo aapai Teenon lok hank te kanpai Bhoot‑pishach nikat nahin aavai Mahavir jab naam sunavai Nase rog harai sab peera Japat nirantar Hanumat beera Sankat se Hanuman chudave Man‑kram‑vachan dyan jo lave Sab par Ram tapasvi raja Tin ke kaj sakal tum saja Aur manorath jo koi lave Soi amit jeevan phal pave Charon yug partap tumhara Hai prasiddh jagat ujiyara Sadhu‑sant ke tum rakhvare Asur nikandan Ram dulare Ashta‑siddhi nav‑nidhi ke data As var deen Janki mata Ram rasayan tumhare pasa Sada raho Raghupati ke dasa Tumhare bhajan Ram ko pave Janam‑janam ke dukh bisrave Ant kaal Raghubar pur jai Jahan janam Hari‑bhakt kahai Aur devta chit na dharai Hanumat se hi sarva sukh karai Sankat kate mite sab peera Jo sumirai Hanumat balbeera Jai Jai Jai Hanuman Gosain Kripa karahu Gurudev ki nyai Jo sat bar path kare kohi Chhutahi bandi maha sukh hohi Jo yah padhe Hanuman Chalisa Hoy siddhi sakhi Gaureesa Tulsidas sada Hari chera Keejai Nath hridaye mein dera Pavan Tanay Sankat Haran, Mangal Murti Roop Ram Lakhan Sita sahit, hriday basahu sur bhoop.</p>
+
+
+
   <section class="starting-box">
     <div class="row">
         <div class="col-12">
+
+            <!-- ======================================================
+                            / CSS Portal start /
+            ======================================================== -->
             <div class="starting-box__content text-white">
                 <img class="pattern" src="./img/starting-pattern.png" alt="" srcset="">
                 <h1 class="fw-semibold mb-3">CSS Docs - Generators, Resources, Tools, HTML</h1>
                 <p class="fs-6 text-white mb-0">CSS Docs is home to many examples of CSS / HTML and how it can be used in website design. Here you'll find all CSS properties and many CSS generators to help with all your design needs. You will find hundreds of pages of tools, resources and generators to help with CSS and HTML. All of our generators will produce the necessary code that you can then copy and paste into your web project. Hopefully you find this website helpful in assisting you with your CSS and HTML needs.</p>
             </div>
-            <div class="home-head border-bottom d-none d-flex1 justify-content-end align-items-center py-2 px-4">
-                <div class="share-social position-relative d-flex align-items-center gap-3">
-                    <div class="share-social">
-                        <button type="button" class="share-social__button d-flex align-items-center text-gray fs-4"><i class="ph ph-share-fat"></i></button>
-                    </div>
-                    <div class="bookmark-icon d-flex align-items-center fs-4">
-                        <i class="ph ph-bookmarks-simple"></i>
-                    </div>
-                </div>
-            </div>
+            <!-- ======================================================
+                            / CSS Portal end /
+            ======================================================== -->
+
+
+            <!-- ======================================================
+                            / CSS Layout Column start /
+            ======================================================== -->
             <div class="home-body-cart">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
@@ -101,6 +108,140 @@
                     </div>
                 </div>
             </div>
+            <!-- ======================================================
+                            / CSS Layout Column end /
+            ======================================================== -->
+
+            <!-- ======================================================
+                            / CSSPortal Blog Section start /
+            ======================================================== -->
+            <div class="article-wrapper">
+                    <div class="article-header">
+                        <h2 class="article-header-title">Latest Articles</h2>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="article-card h-100">
+                                <div class="article-image overflow-hidden">
+                                    <img src="https://www.cssportal.com/blog/wp-content/uploads/2026/04/css-logical-properties-624x357.png" class="card-img-top" alt="..." loading="lazy">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">CSS Box Shadow Generator</a>
+                                    </h5>
+                                    <p class="card-text">The CSS Box Shadow Generator is a powerful tool that allows you to create stunning shadow effects for your web elements with ease. With a user-friendly interface, you can customize the shadow's color, size, blur, and position to achieve the perfect look for your design. Whether you're a beginner or an experienced developer, this generator simplifies the process of adding depth and dimension to your web projects.</p>
+                                    <ul class="card-muted">
+                                        <li>By <a href="#">CSS Doc</a> <span>|</span></li>
+                                        <li>Published on April 13, 2026 <span>|</span></li>
+                                        <li>Category <a href="#">CSS</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="article-card h-100">
+                                <div class="article-image overflow-hidden">
+                                    <img src="https://www.cssportal.com/blog/wp-content/uploads/2026/03/dialog-modals-624x357.png" class="card-img-top" alt="..." loading="lazy">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">Using the &lt;dialog&gt; Element for Native Modals</a>
+                                    </h5>
+                                    <p class="card-text">For years, developers reached for JavaScript libraries – Bootstrap, custom-rolled overlays, or npm packages – whenever they needed a modal. The problem was never a lack of options; it was that every solution came with tradeoffs. Too heavy, too opinionated, too hard to style, or subtly broken for keyboard and screen reader users. Focus management […]</p>
+                                    <ul class="card-muted">
+                                        <li>By <a href="#">CSS Doc</a> <span>|</span></li>
+                                        <li>Published on March 28, 2026 <span>|</span></li>
+                                        <li>Category <a href="#">CSS</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="article-card h-100">
+                                <div class="article-image overflow-hidden">
+                                    <img src="https://www.cssportal.com/blog/wp-content/uploads/2026/03/css-backgrounds-624x357.png" class="card-img-top" alt="..." loading="lazy">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">A Guide to CSS Background Properties</a>
+                                    </h5>
+                                    <p class="card-text">When most developers think of CSS backgrounds, they reach for background-color or slap a background-image on a hero section and call it done. But the CSS background module is quietly one of the richest areas of the entire language – a suite of nine carefully designed properties that, when combined, can produce visual effects that […]</p>
+                                    <ul class="card-muted">
+                                        <li>By <a href="#">CSS Doc</a> <span>|</span></li>
+                                        <li>Published on March 22, 2026 <span>|</span></li>
+                                        <li>Category <a href="#">CSS</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="article-card h-100">
+                                <div class="article-image overflow-hidden">
+                                    <img src="https://www.cssportal.com/blog/wp-content/uploads/2026/03/css-reset-624x357.png" class="card-img-top" alt="..." loading="lazy">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">Modern CSS Reset – Do You Still Need One?</a>
+                                    </h5>
+                                    <p class="card-text">For years, a CSS reset was the first thing pasted into every new stylesheet. Eric Meyer’s reset. Normalize.css. The “* { margin: 0; padding: 0 }” trick. They were almost ritual – a ward against the chaos of browser inconsistency. But the web has changed dramatically. So has CSS itself. The question is no longer...</p>
+                                    <ul class="card-muted">
+                                        <li>By <a href="#">CSS Doc</a> <span>|</span></li>
+                                        <li>Published on March 12, 2026 <span>|</span></li>
+                                        <li>Category <a href="#">CSS</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="article-card h-100">
+                                <div class="article-image overflow-hidden">
+                                    <img src="https://www.cssportal.com/blog/wp-content/uploads/2026/03/css_quiz-624x357.png" class="card-img-top" alt="..." loading="lazy">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">CSS & HTML Quiz – Expanded to 16 Quizzes</a>
+                                    </h5>
+                                    <p class="card-text">What began as a single CSS quiz has evolved into a complete collection of 16 interactive quizzes covering both CSS and HTML. Designed to support every stage of your learning journey, the quizzes range from beginner-friendly fundamentals to advanced, in-depth challenges. You can explore them by skill level or dive into specific topics, making it...</p>
+                                    <ul class="card-muted">
+                                        <li>By <a href="#">CSS Doc</a> <span>|</span></li>
+                                        <li>Published on March 2, 2026 <span>|</span></li>
+                                        <li>Category <a href="#">CSS</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="article-card h-100">
+                                <div class="article-image overflow-hidden">
+                                    <img src="https://www.cssportal.com/blog/wp-content/uploads/2026/02/css_validator-624x357.png" class="card-img-top" alt="..." loading="lazy">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">Updated CSS Validator – Complete Makeover, New Engine</a>
+                                    </h5>
+                                    <p class="card-text">If you've ever pasted a perfectly valid stylesheet into an online CSS validator only to be bombarded with false positives about oklch(), dvh units, or custom properties, you'll know how frustrating outdated tooling can be. That problem just got a whole lot smaller. The CSS Validator at CSS Portal has been completely rebuilt from the ...</p>
+                                    <ul class="card-muted">
+                                        <li>By <a href="#">CSS Doc</a> <span>|</span></li>
+                                        <li>Published on February 22, 2026 <span>|</span></li>
+                                        <li>Category <a href="#">CSS</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <a href="#" class="btn btn-primary btn-lg px-md-4 mt-3">View All Posts</a>
+                    </div                    
+                </div>
+            <!-- ======================================================
+                            / CSSPortal Blog Section end /
+            ======================================================== -->
         </div>
     </div>
   </section>
