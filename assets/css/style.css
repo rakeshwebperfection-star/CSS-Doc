@@ -448,7 +448,6 @@ ul.sidebar-menu {
 
 .main-content-inner {
     display: flex;
-    flex-direction: column;
     padding: 28px;
     min-height: calc(100vh - 150px);
 }
@@ -677,6 +676,137 @@ button {
 .article-card .card-body .card-muted span {
     padding: 0 4px;
 }
+
+.card {
+    border: 0;
+    border-radius: 16px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.card .card-header {
+    padding: 20px;
+    background-color: transparent;
+}
+.card .card-body {
+    padding: 20px;
+}
+
+.breadcrumb .breadcrumb-list {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 100px;    
+    padding: 6px 18px;
+    margin: 0;
+}
+.breadcrumb .breadcrumb-list .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+}
+.breadcrumb .breadcrumb-list .breadcrumb-item .ph {
+    font-weight: 600;
+    color: inherit;
+}
+.breadcrumb .breadcrumb-list .breadcrumb-item a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+}
+.breadcrumb .breadcrumb-list .breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+.breadcrumb .breadcrumb-list .breadcrumb-item::before {
+    padding-right: 3px;
+}
+
+.card .card-body .table thead tr {
+    background-color: var(--primary-pale);
+}
+.card .card-body .table thead tr th {
+    background-color: transparent;
+}
+.card .card-body .table tbody tr td a {
+    text-decoration: none;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+.deleteFav {
+    width: 22px;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.deleteFav:hover {
+    animation: deleteFav-layer 2000ms infinite;
+}
+@keyframes deleteFav-layer {
+    0% {
+        transform: rotate(0deg);
+    }
+    8.0% {
+        transform: rotate(0deg);
+    }
+    12.0% {
+        transform: rotate(12deg);
+    }
+    16.0% {
+        transform: rotate(-15deg);
+    }
+    20.0% {
+        transform: rotate(0deg);
+    }
+    23.0% {
+        transform: rotate(8deg);
+    }
+    26.0% {
+        transform: rotate(-10deg);
+    }
+    29.0% {
+        transform: rotate(0deg);
+    }
+    31.0% {
+        transform: rotate(6deg);
+    }
+    33.0% {
+        transform: rotate(-2deg);
+    }
+    35.0% {
+        transform: rotate(0deg);
+    }
+    37.0% {
+        transform: rotate(-6deg);
+    }
+    39.0% {
+        transform: rotate(0deg);
+    }
+    40.0% {
+        transform: rotate(6deg);
+    }
+    44.0% {
+        transform: rotate(-3deg);
+    }
+    49.0% {
+        transform: rotate(2deg);
+    }
+    55.0% {
+        transform: rotate(0deg);
+    }
+    62.0% {
+        transform: rotate(1deg);
+    }
+    70.0% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
 
 @media (max-width: 1199px) {
     .side-overlay.show,

@@ -1,4 +1,187 @@
-<?php include './includes/header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CSS Docs</title>
+</head>
+<body>
+<div class="side-overlay"></div>
+
+    <aside class="sidebar">
+        <button type="button" class="sidebar-close-btn"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="02 User"><path d="M25 512a25 25 0 0 1-17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462A24.93 24.93 0 0 1 25 512z" fill="#ffffff" opacity="1" data-original="#ffffff"></path><path d="M487 512a24.93 24.93 0 0 1-17.68-7.32l-462-462A25 25 0 0 1 42.68 7.32l462 462A25 25 0 0 1 487 512z" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></g></svg></button>
+        <a href="index.html" class="sidebar__Logo fw-bold text-decoration-none d-flex align-items-center justify-content-center border-bottom py-2 gap-2">
+            <span class="logo-txt fs-2">CSS <span class="text-primary">Docs</span></span>
+        </a>
+        <div class="sidebar-menu-wrapper overflow-y-auto">
+            <ul class="sidebar-menu mb-40">
+            <li class="sidebar-menu__item">
+                <span class="text-gray-300 text-sm px-10 pt-20 fw-semibold d-block text-uppercase">Categories</span>
+            </li>
+            <li class="sidebar-menu__item has-dropdown">
+                <div class="sidebar-menu__link">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#000000" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0a191.783 191.783 0 0 0 49.719-20.638l15.688 15.69a32.121 32.121 0 0 0 22.727 9.415 32.116 32.116 0 0 0 22.718-9.415l22.718-22.719a32.11 32.11 0 0 0 9.415-22.718 32.113 32.113 0 0 0-9.415-22.726L117.881-88.8a191.838 191.838 0 0 0 20.638-49.719h22.147c17.746 0 32.134-14.388 32.134-32.133v-32.134c0-17.745-14.388-32.133-32.134-32.133h-22.147a191.831 191.831 0 0 0-20.638-49.718l15.689-15.689a32.117 32.117 0 0 0 9.415-22.727 32.11 32.11 0 0 0-9.415-22.718l-22.718-22.718a32.112 32.112 0 0 0-22.718-9.415 32.117 32.117 0 0 0-22.727 9.415L49.719-352.8A191.78 191.78 0 0 0 0-373.437v-22.148c0-17.746-14.388-32.134-32.134-32.134h-32.133c-17.746 0-32.133 14.388-32.133 32.134v22.148a191.78 191.78 0 0 0-49.719 20.637l-15.689-15.689a32.115 32.115 0 0 0-22.726-9.415 32.108 32.108 0 0 0-22.718 9.415l-22.719 22.718a32.114 32.114 0 0 0-9.415 22.718 32.121 32.121 0 0 0 9.415 22.727l15.69 15.689a191.796 191.796 0 0 0-20.638 49.718h-22.147c-17.746 0-32.134 14.388-32.134 32.133v32.134c0 17.745 14.388 32.133 32.134 32.133h22.147A191.803 191.803 0 0 0-214.281-88.8l-15.69 15.689a32.117 32.117 0 0 0-9.415 22.726 32.114 32.114 0 0 0 9.415 22.718l22.719 22.719a32.112 32.112 0 0 0 22.718 9.415 32.119 32.119 0 0 0 22.726-9.415l15.689-15.69A191.783 191.783 0 0 0-96.4 0v22.148c0 17.746 14.387 32.133 32.133 32.133h32.133C-14.388 54.281 0 39.894 0 22.148Z" style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(304.2 442.719)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class=""></path><path d="M0 0c53.205 0 96.4-43.195 96.4-96.4 0-53.204-43.195-96.4-96.4-96.4-53.205 0-96.4 43.196-96.4 96.4C-96.4-43.195-53.205 0 0 0Z" style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(256 352.4)" fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class=""></path></g></g></svg></span>
+                    <span class="text">CSS Generators</span>
+                </div>
+                <ul class="sidebar-submenu">
+                    <li><a href="#"><span>Accordion Generator</span></a></li>
+                    <li><a href="#"><span>Animated Text Generator</span></a></li>
+                    <li><a href="#"><span>Animation / Keyframe Generator</span></a></li>
+                    <li><a href="#"><span>Border Image Generator</span></a></li>
+                    <li><a href="#"><span>Border Radius Generator</span></a></li>
+                    <li><a href="#"><span>Box Shadow Generator</span></a></li>
+                    <li><a href="#"><span>Button Generator</span></a></li>
+                    <li><a href="#"><span>Checkbox / Radio Generator</span></a></li>
+                    <li><a href="#"><span>Clip Path Generator</span></a></li>
+                    <li><a href="#"><span>Color Variable Generator</span></a></li>
+                    <li><a href="#"><span>Column Generator</span></a></li>
+                    <li><a href="#"><span>Cubic Bezier Generator</span></a></li>
+                    <li><a href="#"><span>Dark Mode Generator</span></a></li>
+                    <li><a href="#"><span>Flip Swith Generator</span></a></li>
+                    <li><a href="#"><span>Flexbox Generator</span></a></li>
+                    <li><a href="#"><span>Glassmorphism Generator</span></a></li>
+                    <li><a href="#"><span>Glitch Text Effect</span></a></li>
+                    <li><a href="#"><span>Google Fonts CSS</span></a></li>
+                    <li><a href="#"><span>Gradient Generator</span></a></li>
+                    <li><a href="#"><span>Gradient Border Generator</span></a></li>
+                    <li><a href="#"><span>Grid Generator</span></a></li>
+                    <li><a href="#"><span>Highlighter Generator</span></a></li>
+                    <li><a href="#"><span>Image Filter Generator</span></a></li>
+                    <li><a href="#"><span>Input Range Generator</span></a></li>
+                    <li><a href="#"><span>Layout Generator</span></a></li>
+                    <li><a href="#"><span>Loader / Spinner Generator</span></a></li>
+                    <li><a href="#"><span>Menu Generator</span></a></li>
+                    <li><a href="#"><span>nth-child Tester</span></a></li>
+                    <li><a href="#"><span>Pattern Generator</span></a></li>
+                    <li><a href="#"><span>RGBA Generator</span></a></li>
+                    <li><a href="#"><span>Ribbon Generator</span></a></li>	
+                    <li><a href="#"><span>Rotate Generator</span></a></li>
+                    <li><a href="#"><span>Scrollbar Generator</span></a></li>
+                    <li><a href="#"><span>Select Dropdown Generator</span></a></li>
+                    <li><a href="#"><span>Skeleton Loader Generator</span></a></li>
+                    <li><a href="#"><span>Sprite Generator</span></a></li>
+                    <li><a href="#"><span>Text Gradient Generator</span></a></li>
+                    <li><a href="#"><span>Text Input Generator</span></a></li>
+                    <li><a href="#"><span>Text Shadow Generator</span></a></li>
+                    <li><a href="#"><span>Toast Generator</span></a></li>
+                    <li><a href="#"><span>Tooltip Generator</span></a></li>
+                    <li><a href="#"><span>Triangle Generator</span></a></li>
+                    <li><a href="#"><span>3D Transform Generator</span></a></li>
+                </ul>
+            </li>
+            <li class="sidebar-menu__item has-dropdown">
+                <div class="sidebar-menu__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M0 2.5A1.5 1.5 0 0 0 1.5 4h19a1.5 1.5 0 0 0 0-3h-19A1.5 1.5 0 0 0 0 2.5zM30.5 14h-29a1.5 1.5 0 0 0 0 3h29a1.5 1.5 0 0 0 0-3zM30.5 28h-19a1.5 1.5 0 0 0 0 3h19a1.5 1.5 0 0 0 0-3z" fill="#000000" opacity="1" data-original="#000000"></path></g></svg>
+                    </span>
+                    <span class="text">CSS Resources</span>
+                </div>
+                <ul class="sidebar-submenu">
+                    <li><a href="#"><span>CSS At Rules</span></a></li>
+                    <li><a href="#"><span>CSS Animations</span></a></li>
+                    <li><a href="#"><span>CSS Blog</span></a></li>
+                    <li><a href="#"><span>CSS Color Names</span></a></li>
+                    <li><a href="#"><span>CSS Data Types</span></a></li>
+                    <li><a href="#"><span>CSS Functions</span></a></li>
+                    <li><a href="#"><span>CSS Properties</span></a></li>
+                    <li><a href="#"><span>CSS Pseudo Classes</span></a></li>
+                    <li><a href="#"><span>CSS Quiz</span></a></li>
+                    <li><a href="#"><span>CSS Selectors</span></a></li>
+                    <li><a href="#"><span>CSS Shapes</span></a></li>
+                </ul>					
+            </li>
+            <li class="sidebar-menu__item has-dropdown">
+                <div class="sidebar-menu__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><circle cx="6.523" cy="21.853" r=".805" fill="#000000" opacity="1" data-original="#000000"></circle><path d="m19.073 18.985-1.443-.833a.397.397 0 0 0-.4 0l-1.444.833a.401.401 0 0 0-.2.347v1.667c0 .143.076.275.2.347l1.444.833a.397.397 0 0 0 .4-.001l1.443-.833a.398.398 0 0 0 .2-.346v-1.667a.394.394 0 0 0-.2-.347zm-.6 1.783-1.043.602-1.044-.603v-1.206l1.044-.603 1.043.603zM8.76.16a.44.44 0 0 0-.655.381v2.737l-1.582.997-1.583-.997V.541c0-.156-.083-.3-.218-.378A.435.435 0 0 0 4.286.16a4.54 4.54 0 0 0-2.292 3.939c0 1.21.471 2.347 1.326 3.202.319.319.678.585 1.065.793l.041.026v12.886l-.003.015v.882c0 1.158.942 2.1 2.101 2.1 1.157 0 2.1-.942 2.1-2.1V8.108l.038-.018c.391-.21.749-.478 1.062-.79a4.515 4.515 0 0 0 1.328-3.201A4.544 4.544 0 0 0 8.76.16zm-.935 20.848-.003.012v.882a1.3 1.3 0 0 1-2.599 0v-.882c0-.009-.004-.016-.005-.024V8.433l.042.017a4.544 4.544 0 0 0 2.526-.002l.039-.015zM9.106 6.682a3.63 3.63 0 0 1-2.583 1.07c-.976 0-1.893-.38-2.584-1.07a3.628 3.628 0 0 1-1.07-2.583 3.658 3.658 0 0 1 1.196-2.702V3.52c0 .15.077.29.204.37l2.02 1.273c.143.09.324.09.467 0l2.02-1.273a.438.438 0 0 0 .204-.37V1.396a3.666 3.666 0 0 1 1.196 2.703c0 .976-.38 1.893-1.07 2.583z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M19.36 16.959V8.234c1.633-.73 2.646-2.262 2.646-4.003 0-1.668-.959-3.176-2.502-3.936l-.603-.296v3.763l-2.944.884V-.001l-.603.297c-1.543.759-2.502 2.268-2.502 3.936 0 1.741 1.014 3.273 2.646 4.003v8.736a3.695 3.695 0 0 0-1.788 3.16c0 2.055 1.673 3.726 3.728 3.726s3.727-1.671 3.727-3.726c0-1.305-.69-2.499-1.805-3.172zm-1.921 6.097a2.93 2.93 0 0 1-2.927-2.926c0-1.091.606-2.082 1.583-2.587l.035-.018c.177-.089.205-.274.205-.465V7.665l-.271-.102c-1.443-.543-2.376-1.851-2.376-3.333 0-1.113.521-2.135 1.433-2.817v3.794a.414.414 0 0 0 .537.398L19.44 4.47a.414.414 0 0 0 .298-.399V1.414c.912.682 1.432 1.704 1.432 2.816 0 1.481-.933 2.79-2.375 3.333l-.271.102v9.646c0 .113.244.224.303.256h.001a2.912 2.912 0 0 1 1.537 2.563 2.93 2.93 0 0 1-2.926 2.926z" fill="#000000" opacity="1" data-original="#000000"></path></g></svg>
+                    </span>
+                    <span class="text">CSS Tools</span>
+                </div>
+                <ul class="sidebar-submenu">
+                    <li class="has-dropdown"><a href="javascript: void(0);">CSS Compilers</a>
+                        <ul class="sub-menu">
+                            <li><a href="#"><span>LESS to CSS Compiler</span></a></li>
+                            <li><a href="#"><span>SCSS to CSS Compiler</span></a></li>
+                            <li><a href="#"><span>Stylus to CSS Compiler</span></a></li>
+                            <li><a href="#"><span>CSS to LESS Converter</span></a></li>
+                            <li><a href="#"><span>CSS to SCSS Converter</span></a></li>
+                            <li><a href="#"><span>CSS to Stylus Converter</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span>CSS Formatter</span></a></li>
+                    <li><a href="#"><span>CSS Minifier</span></a></li>
+                    <li><a href="#"><span>CSS Validator</span></a></li>
+                    <li><a href="#"><span>HTML Formatter</span></a></li>
+                    <li><a href="#"><span>HTML Minifier</span></a></li>
+                    <li><a href="#"><span>HTML Validator</span></a></li>
+                    <li><a href="#"><span>JSON Formatter</span></a></li>
+                    <li><a href="#"><span>JSON Minifier</span></a></li>
+                    <li><a href="#"><span>JSON Validator</span></a></li>
+                    <li><a href="#"><span>XML Formatter</span></a></li>
+                    <li><a href="#"><span>XML Minifier</span></a></li>
+                    <li><a href="#"><span>XML Validator</span></a></li>
+                </ul>					
+            </li>
+            <li class="sidebar-menu__item">
+                <div class="sidebar-menu__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M12 1a11 11 0 1 0 11 11A11.013 11.013 0 0 0 12 1zm4.242 13.829a1 1 0 1 1-1.414 1.414L12 13.414l-2.828 2.829a1 1 0 1 1-1.414-1.414L10.586 12 7.758 9.171a1 1 0 1 1 1.414-1.414L12 10.586l2.828-2.829a1 1 0 1 1 1.414 1.414L13.414 12z" data-name="Layer 2" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></svg>
+                    </span>
+                    <span class="text">404 Page</span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </aside>
+
+<div id="main-content" class="dashboard-main-wrapper">
+    <div class="top-navbar border-bottom">
+        <div class="d-flex align-items-center gap-2 gap-md-4">
+            <div class="thinumber_Icon">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><clipPath id="a"><path d="M0 .001h24v24H0z" fill="#000000" opacity="1" data-original="#000000" class=""></path></clipPath><g clip-path="url(#a)"><path stroke="#292929" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6.001h18m-18 6h18m-18 6h18" fill="#000000" opacity="1" data-original="#000000" class=""></path></g></g></svg>
+            </div>
+            <form class="d-flex position-relative" role="search" onsubmit="handleSearch(event)">
+                <div class="search-bar me-1 w-100">
+                    <input id="searchInput" class="form-control" type="search" placeholder="Search CSS topics..."  onkeyup="showSuggestions()" autocomplete="off" />
+                </div>
+                <a href="#" class="btn btn-primary fs-6 text-white search-btn min-w-auto px-lg-4">Search</a>
+                <div id="suggestionsBox" class="suggestions-box"></div>
+            </form>
+        </div>
+        <div class="d-flex align-item-center gap-3">
+            <div class="notification-wrapper">
+                <div class="notificaton-icon" data-bs-toggle="dropdown">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M453.332 229.332c-8.832 0-16-7.168-16-16 0-61.27-23.848-118.848-67.156-162.176-6.25-6.25-6.25-16.383 0-22.633s16.383-6.25 22.636 0c49.344 49.364 76.52 115.008 76.52 184.809 0 8.832-7.168 16-16 16zM16 229.332c-8.832 0-16-7.168-16-16 0-69.8 27.18-135.445 76.543-184.789 6.25-6.25 16.387-6.25 22.637 0s6.25 16.387 0 22.637C55.852 94.484 32 152.062 32 213.332c0 8.832-7.168 16-16 16zM234.668 512c-44.117 0-80-35.883-80-80 0-8.832 7.168-16 16-16s16 7.168 16 16c0 26.477 21.523 48 48 48 26.473 0 48-21.523 48-48 0-8.832 7.168-16 16-16s16 7.168 16 16c0 44.117-35.883 80-80 80zm0 0" fill="#000000" opacity="1" data-original="#000000"></path><path d="M410.668 448h-352c-20.59 0-37.336-16.746-37.336-37.332a37.305 37.305 0 0 1 13.059-28.375c32.445-27.414 50.941-67.262 50.941-109.48v-59.481C85.332 130.988 152.32 64 234.668 64 317.012 64 384 130.988 384 213.332v59.48c0 42.22 18.496 82.067 50.73 109.333 8.512 7.253 13.27 17.597 13.27 28.523C448 431.254 431.254 448 410.668 448zm-176-352c-64.707 0-117.336 52.629-117.336 117.332v59.48c0 51.645-22.633 100.415-62.078 133.758-.746.64-1.922 1.965-1.922 4.098 0 2.898 2.434 5.332 5.336 5.332h352c2.898 0 5.332-2.434 5.332-5.332 0-2.133-1.172-3.457-1.879-4.055C374.633 373.227 352 324.457 352 272.813v-59.481C352 148.629 299.371 96 234.668 96zm0 0" fill="#000000" opacity="1" data-original="#000000"></path><path d="M234.668 96c-8.832 0-16-7.168-16-16V16c0-8.832 7.168-16 16-16s16 7.168 16 16v64c0 8.832-7.168 16-16 16zm0 0" fill="#000000" opacity="1" data-original="#000000"></path></g></svg>
+                </div>
+                <div class="dropdown-menu">
+                    <div class="notification-head">
+                        <h5 class="title">Notifications</h5>
+                        <div class="notif-close-icon">
+                            <svg class="notification-close" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" data-bs-toggle="dropdown"><g><path d="M12 1a11 11 0 1 0 11 11A11.013 11.013 0 0 0 12 1zm4.242 13.829a1 1 0 1 1-1.414 1.414L12 13.414l-2.828 2.829a1 1 0 1 1-1.414-1.414L10.586 12 7.758 9.171a1 1 0 1 1 1.414-1.414L12 10.586l2.828-2.829a1 1 0 1 1 1.414 1.414L13.414 12z" data-name="Layer 2" fill="#ffffff" opacity="1" data-original="#ffffff"></path></g></svg>
+                        </div>
+                    </div>
+                    <div class="notification-body">
+                        <a href="#" class="notification-block">
+                            <span class="badge new">New</span>
+                            <h6 class="text">CSS Logical Properties Converter</h6>
+                            <p class="text-muted">A new tool for converting CSS logical properties.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+  <p class="d-none">Shri Guru Charan Saroj raj, Nij manu Mukuru sudhari Baranau Raghuvar Bimal Jasu, Jo Dayaku Phala Chari Budhiheen Tanu Janike, Sumirau Pavan‑Kumar Bal Buddhi Vidya Dehu Mohi, Harahu Kalesa Vikar Jai Hanuman gyan gun sagar Jai Kapis tihun lok ujagar Ram doot atulit bal dhama Anjani‑putra Pavan sut nama Mahavir Vikram Bajrangi Kumati nivar sumati ke sangi Kanchan varan viraj suvesa Kanan kundal kunchit kesa Hath vajra aur dhvaja viraje Kandhe moonj janeu saje Sankar suvan Kesari nandan Tej pratap maha jag vandan Vidyavan guni ati chatur Ram kaj karibe ko aatur Prabhu charitra sunibe ko rasiya Ram Lakhan Sita man basiya Sukshma roop dhari Siyahi dikhava Vikat roop dhari Lank jarava Bhima roop dhari asur sanhare Ramchandra ke kaj sanvare Laye Sanjivan Lakhan jiyaye Shri Raghubir harashi ur laye Raghupati kinhi bahut badai Tum mam priya Bharat‑hi sam bhai Sahas badan tumharo yash gaave Asa kahi Shripati kanth lagaave Sankadik Brahmadi Muneesa Narad‑Sarad sahit Ahisa Yam Kuber Digpal jahan te Kavi kovid kahi sake kahan te Tum upkar Sugrivahin keenha Ram milaye rajpad deenha Tumharo mantra Vibhishan mana Lankeshwar bhaye sab jag jana Yug sahasra yojan par Bhanu Leelyo taahi madhur phal janu Prabhu mudrika meli mukh mahee Jaladhi langhi gaye achraj nahee Durgam kaj jagat ke jete Sugam anugrah tumhare tete Ram dware tum rakhvare Hot na agya binu paisare Sab sukh lahai tumhari sarna Tum rakshak kahu ko darna Aapan tej samharo aapai Teenon lok hank te kanpai Bhoot‑pishach nikat nahin aavai Mahavir jab naam sunavai Nase rog harai sab peera Japat nirantar Hanumat beera Sankat se Hanuman chudave Man‑kram‑vachan dyan jo lave Sab par Ram tapasvi raja Tin ke kaj sakal tum saja Aur manorath jo koi lave Soi amit jeevan phal pave Charon yug partap tumhara Hai prasiddh jagat ujiyara Sadhu‑sant ke tum rakhvare Asur nikandan Ram dulare Ashta‑siddhi nav‑nidhi ke data As var deen Janki mata Ram rasayan tumhare pasa Sada raho Raghupati ke dasa Tumhare bhajan Ram ko pave Janam‑janam ke dukh bisrave Ant kaal Raghubar pur jai Jahan janam Hari‑bhakt kahai Aur devta chit na dharai Hanumat se hi sarva sukh karai Sankat kate mite sab peera Jo sumirai Hanumat balbeera Jai Jai Jai Hanuman Gosain Kripa karahu Gurudev ki nyai Jo sat bar path kare kohi Chhutahi bandi maha sukh hohi Jo yah padhe Hanuman Chalisa Hoy siddhi sakhi Gaureesa Tulsidas sada Hari chera Keejai Nath hridaye mein dera Pavan Tanay Sankat Haran, Mangal Murti Roop Ram Lakhan Sita sahit, hriday basahu sur bhoop.</p>
+
 
   <section class="starting-box">
     <div class="row">
@@ -8,7 +191,7 @@
                             / CSS Portal start /
             ======================================================== -->
             <div class="starting-box__content text-white">
-                <img class="pattern" src="../../../css-doc/assets/img/starting-pattern.png" alt="" srcset="">
+                <img class="pattern" src="assets/img/starting-pattern.png" alt="" srcset="">
                 <h1 class="fw-semibold mb-3">CSS Docs - Generators, Resources, Tools, HTML</h1>
                 <p class="fs-6 text-white mb-0">CSS Docs is home to many examples of CSS / HTML and how it can be used in website design. Here you'll find all CSS properties and many CSS generators to help with all your design needs. You will find hundreds of pages of tools, resources and generators to help with CSS and HTML. All of our generators will produce the necessary code that you can then copy and paste into your web project. Hopefully you find this website helpful in assisting you with your CSS and HTML needs.</p>
             </div>
@@ -181,7 +364,7 @@
                                     <h5 class="card-title">
                                         <a href="#">Modern CSS Reset – Do You Still Need One?</a>
                                     </h5>
-                                    <p class="card-text">For years, a CSS reset was the first thing pasted into every new stylesheet. Eric Meyer’s reset. Normalize.css. The “* { margin: 0; padding: 0 }” trick. They were almost ritual – a ward against the chaos of browser inconsistency. But the web has changed dramatically. So has CSS itself. The question is no longer...</p>
+                                    <p class="card-text">For years, a CSS reset was the first thing pasted into every new stylesheet. Eric Meyer's reset. Normalize.css. The “* { margin: 0; padding: 0 }” trick. They were almost ritual – a ward against the chaos of browser inconsistency. But the web has changed dramatically. So has CSS itself. The question is no longer...</p>
                                     <ul class="card-muted">
                                         <li>By <a href="#">CSS Doc</a> <span>|</span></li>
                                         <li>Published on March 12, 2026 <span>|</span></li>
@@ -232,7 +415,7 @@
                     </div>
                     <div class="text-center mt-5">
                         <a href="#" class="btn btn-primary btn-lg px-md-4 mt-3">View All Posts</a>
-                    </div                    
+                    </div>
                 </div>
             <!-- ======================================================
                             / CSSPortal Blog Section end /
@@ -241,4 +424,54 @@
     </div>
   </section>
 
-<?php include './includes/footer.php'; ?>
+    </main>
+    <footer class="footer_Wrapper">
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-sm-between gap-1 gap-sm-2">
+                        <p class="m-0">Copyright &copy; 2026 <a href="javascript:void(0)">CSS Docs</a>. All Rights Reserved.</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <a href="javascript:void(0)" class="text-gray-300 text-13 fw-normal">Contact</a>
+                            <a href="javascript:void(0)" class="text-gray-300 text-13 fw-normal">Privacy Policy</a>
+                            <a href="javascript:void(0)" class="text-gray-300 text-13 fw-normal">Donations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+        let thinumber_Icon = document.querySelector('.thinumber_Icon');
+        let sidebar = document.querySelector('.sidebar');
+        let mainContent = document.querySelector('#main-content');
+        const overlay = document.querySelector(".side-overlay");
+
+        thinumber_Icon.addEventListener('click', function() {
+            sidebar.classList.toggle('active');
+            overlay.classList.add("show");
+            mainContent.classList.toggle('dashboard-main-wrapper');
+        });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const sidebar = document.querySelector(".sidebar");
+
+
+            document.querySelectorAll(".side-overlay, .sidebar-close-btn").forEach((e) => {
+                e.addEventListener("click", () => {
+                    overlay.classList.remove("show");
+                    if (sidebar) {
+                        sidebar.classList.remove("active");
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script src="assets/js/search.js"></script>
+</body>
+</html>
